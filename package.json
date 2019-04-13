@@ -1,0 +1,39 @@
+{
+  "name": "sanskrit-transcoder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run setup-module && npm run install-dependencies",
+    "setup-module": "mkdir -p tmp && mkdir -p test/util/ext",
+    "install-dependencies": "npm run install-transcoder",
+    "install-transcoder": "cd test/util/ext && rm -rf sanskrit-transcoding && git clone git@github.com:funderburkjim/sanskrit-transcoding.git && cd ../../..",
+    "install-dict": "cd test/util/ext && wget http://www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/2014/downloads/mwxml.zip && unzip mwxml.zip xml/mw.xml && rm mwxml.zip && cd ../../..",
+    "build-test-fixtures": "npm run install-dict && node --max-old-space-size=8192 test/util/load-slp1",
+    "test": "npm run test-lint && npm run test-components",
+    "test-lint": "eslint ./ --ext js",
+    "test-components": "mocha ./test/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjunmehta/sanskrit-transcoder.git"
+  },
+  "author": "Arjun Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arjunmehta/sanskrit-transcoder/issues"
+  },
+  "homepage": "https://github.com/arjunmehta/sanskrit-transcoder#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "line-stream": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.1",
+    "mocha": "^6.0.0"
+  }
+}

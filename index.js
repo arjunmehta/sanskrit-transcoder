@@ -92,7 +92,7 @@ function transcoderFsm(sourceEncoding, targetEncoding) {
       const outval = `${rawEntry.out}` || '';
       const nextState = rawEntry.next ? rawEntry.next : startStates[0];
 
-      const fsmentry = {
+      const fsmEntry = {
         starts: startStates,
         regex: conlook ? regexCode : undefined,
         in: toUnicode(inval),
@@ -103,7 +103,7 @@ function transcoderFsm(sourceEncoding, targetEncoding) {
         'e-elt': rawEntry
       };
 
-      fsmEntries.push(fsmentry);
+      fsmEntries.push(fsmEntry);
     });
 
   stateMachine.fsm = fsmEntries;
@@ -112,8 +112,8 @@ function transcoderFsm(sourceEncoding, targetEncoding) {
   let ientry = 0;
 
   fsmEntries
-    .forEach((fsmentry) => {
-      const { in: inval } = fsmentry;
+    .forEach((fsmEntry) => {
+      const { in: inval } = fsmEntry;
       let state;
       let c;
 
@@ -183,8 +183,8 @@ function toUnicode(originalString) {
   return originalString;
 }
 
-function transcoderProcessStringMatch(line, n, m, fsmentry) {
-  const edge = fsmentry.in;
+function transcoderProcessStringMatch(line, n, m, fsmEntry) {
+  const edge = fsmEntry.in;
   const nedge = edge.length;
 
   let match = '';
@@ -207,12 +207,12 @@ function transcoderProcessStringMatch(line, n, m, fsmentry) {
 
   match = edge;
 
-  if (!fsmentry.regex) {
+  if (!fsmEntry.regex) {
     return match;
   }
 
-  const nmatch = match.length;
-  const n1 = n + nmatch;
+  const nMatch = match.length;
+  const n1 = n + nMatch;
 
   if (n1 === m) {
     return match;
@@ -220,7 +220,7 @@ function transcoderProcessStringMatch(line, n, m, fsmentry) {
 
   const d = line[n1];
 
-  if (fsmentry.regex === 'slp1_deva') {
+  if (fsmEntry.regex === 'slp1_deva') {
     const test = d.match(/[^aAiIuUfFxXeEoO^/\\\\]/);
 
     if (test) {
@@ -230,7 +230,7 @@ function transcoderProcessStringMatch(line, n, m, fsmentry) {
     return '';
   }
 
-  if (fsmentry.regex === 'deva_slp1') {
+  if (fsmEntry.regex === 'deva_slp1') {
     for (let i = 0; i < vowelSignsUnicode.length; i += 1) {
       const vowelSign = vowelSignsUnicode[i];
       const vowelSignLen = vowelSign.length;
@@ -299,14 +299,14 @@ module.exports = function transcoderProcessString(line, sourceEncoding, targetEn
     }
 
     const isubs = states[c];
-    let nbest = 0;
+    let nBest = 0;
     let bestFE = null;
 
     for (let i = 0; i < isubs.length; i += 1) {
       const isub = isubs[i];
 
-      const fsmentry = fsmEntries[isub];
-      const startStates = fsmentry.starts;
+      const fsmEntry = fsmEntries[isub];
+      const startStates = fsmEntry.starts;
       const nstartStates = startStates.length;
       let k = -1;
 
@@ -321,18 +321,18 @@ module.exports = function transcoderProcessString(line, sourceEncoding, targetEn
         continue;
       }
 
-      const match = transcoderProcessStringMatch(line, n, m, fsmentry);
-      const nmatch = match.length;
+      const match = transcoderProcessStringMatch(line, n, m, fsmEntry);
+      const nMatch = match.length;
 
-      if (nmatch > nbest) {
-        nbest = nmatch;
-        bestFE = fsmentry;
+      if (nMatch > nBest) {
+        nBest = nMatch;
+        bestFE = fsmEntry;
       }
     }
 
     if (bestFE) {
       result += bestFE.out;
-      n += nbest;
+      n += nBest;
       currentState = bestFE.next;
     } else {
       result += c;

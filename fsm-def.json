@@ -1,0 +1,4859 @@
+{
+  ".DS_Store": "",
+  "deva_slp1": {
+    "fsm": {
+      "attr": {
+        "start": "INIT",
+        "inputDecoding": "UTF-8",
+        "outputEncoding": "UTF-8"
+      },
+      "e": [
+        {
+          "s": "INIT",
+          "in": "\\u0905",
+          "out": "a"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0906",
+          "out": "A"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0907",
+          "out": "i"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0908",
+          "out": "I"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0909",
+          "out": "u"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u090a",
+          "out": "U"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u090b",
+          "out": "f"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0960",
+          "out": "F"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u090c",
+          "out": "x"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0961",
+          "out": "X"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u090f",
+          "out": "e"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0910",
+          "out": "E"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0913",
+          "out": "o"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0914",
+          "out": "O"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0905\\u0951",
+          "out": "a/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0906\\u0951",
+          "out": "A/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0907\\u0951",
+          "out": "i/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0908\\u0951",
+          "out": "I/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0909\\u0951",
+          "out": "u/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u090a\\u0951",
+          "out": "U/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u090b\\u0951",
+          "out": "f/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0960\\u0951",
+          "out": "F/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u090c\\u0951",
+          "out": "x/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0961\\u0951",
+          "out": "X/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u090f\\u0951",
+          "out": "e/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0910\\u0951",
+          "out": "E/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0913\\u0951",
+          "out": "o/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0914\\u0951",
+          "out": "O/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0905\\u0952",
+          "out": "\\a"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0906\\u0952",
+          "out": "\\A"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0907\\u0952",
+          "out": "\\i"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0908\\u0952",
+          "out": "\\I"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0909\\u0952",
+          "out": "\\u"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u090a\\u0952",
+          "out": "\\U"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u090b\\u0952",
+          "out": "\\f"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0960\\u0952",
+          "out": "\\F"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u090c\\u0952",
+          "out": "\\x"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0961\\u0952",
+          "out": "\\X"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u090f\\u0952",
+          "out": "\\e"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0910\\u0952",
+          "out": "\\E"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0913\\u0952",
+          "out": "\\o"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0914\\u0952",
+          "out": "\\O"
+        },
+        {
+          "s": "INIT",
+          "in": "",
+          "out": "a"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u093e",
+          "out": "A"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u093f",
+          "out": "i"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0940",
+          "out": "I"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0941",
+          "out": "u"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0942",
+          "out": "U"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0943",
+          "out": "f"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0944",
+          "out": "F"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0962",
+          "out": "x"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0963",
+          "out": "X"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0947",
+          "out": "e"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0948",
+          "out": "E"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u094b",
+          "out": "o"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u094c",
+          "out": "O"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0951",
+          "out": "/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0915\\u0951",
+          "out": "ka/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u093e\\u0951",
+          "out": "A/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u093f\\u0951",
+          "out": "i/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0940\\u0951",
+          "out": "I/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0941\\u0951",
+          "out": "u/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0942\\u0951",
+          "out": "U/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0943\\u0951",
+          "out": "f/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0944\\u0951",
+          "out": "F/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0962\\u0951",
+          "out": "x/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0963\\u0951",
+          "out": "X/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0947\\u0951",
+          "out": "e/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0948\\u0951",
+          "out": "E/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u094b\\u0951",
+          "out": "o/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u094c\\u0951",
+          "out": "O/"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0952",
+          "out": "\\"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u093e\\u0952",
+          "out": "\\A"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u093f\\u0952",
+          "out": "\\i"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0940\\u0952",
+          "out": "\\I"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0941\\u0952",
+          "out": "\\u"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0942\\u0952",
+          "out": "\\U"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0943\\u0952",
+          "out": "\\f"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0944\\u0952",
+          "out": "\\F"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0962\\u0952",
+          "out": "\\x"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0963\\u0952",
+          "out": "\\X"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0947\\u0952",
+          "out": "\\e"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0948\\u0952",
+          "out": "\\E"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u094b\\u0952",
+          "out": "\\o"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u094c\\u0952",
+          "out": "\\O"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u094d",
+          "out": ""
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0915/^",
+          "out": "ka"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0916/^",
+          "out": "Ka"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0917/^",
+          "out": "ga"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0918/^",
+          "out": "Ga"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0919/^",
+          "out": "Na"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u091a/^",
+          "out": "ca"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u091b/^",
+          "out": "Ca"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u091c/^",
+          "out": "ja"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u091d/^",
+          "out": "Ja"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u091e/^",
+          "out": "Ya"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u091f/^",
+          "out": "wa"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0920/^",
+          "out": "Wa"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0921/^",
+          "out": "qa"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0922/^",
+          "out": "Qa"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0923/^",
+          "out": "Ra"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0924/^",
+          "out": "ta"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0925/^",
+          "out": "Ta"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0926/^",
+          "out": "da"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0927/^",
+          "out": "Da"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0928/^",
+          "out": "na"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u092a/^",
+          "out": "pa"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u092b/^",
+          "out": "Pa"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u092c/^",
+          "out": "ba"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u092d/^",
+          "out": "Ba"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u092e/^",
+          "out": "ma"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u092f/^",
+          "out": "ya"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0930/^",
+          "out": "ra"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0932/^",
+          "out": "la"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0933/^",
+          "out": "La"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0933\\u094d\\u0939/^",
+          "out": "|a"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0935/^",
+          "out": "va"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0936/^",
+          "out": "Sa"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0937/^",
+          "out": "za"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0938/^",
+          "out": "sa"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0939/^",
+          "out": "ha"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0915",
+          "out": "k"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0916",
+          "out": "K"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0917",
+          "out": "g"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0918",
+          "out": "G"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0919",
+          "out": "N"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u091a",
+          "out": "c"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u091b",
+          "out": "C"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u091c",
+          "out": "j"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u091d",
+          "out": "J"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u091e",
+          "out": "Y"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u091f",
+          "out": "w"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0920",
+          "out": "W"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0921",
+          "out": "q"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0922",
+          "out": "Q"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0923",
+          "out": "R"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0924",
+          "out": "t"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0925",
+          "out": "T"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0926",
+          "out": "d"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0927",
+          "out": "D"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0928",
+          "out": "n"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u092a",
+          "out": "p"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u092b",
+          "out": "P"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u092c",
+          "out": "b"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u092d",
+          "out": "B"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u092e",
+          "out": "m"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u092f",
+          "out": "y"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0930",
+          "out": "r"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0932",
+          "out": "l"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0933",
+          "out": "L"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0933\\u094d\\u0939",
+          "out": "|"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0935",
+          "out": "v"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0936",
+          "out": "S"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0937",
+          "out": "z"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0938",
+          "out": "s"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0939",
+          "out": "h"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0902",
+          "out": "M"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0903",
+          "out": "H"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u093d",
+          "out": "'"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0964",
+          "out": "."
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0965",
+          "out": ".."
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0966",
+          "out": 0
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0967",
+          "out": 1
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0968",
+          "out": 2
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0969",
+          "out": 3
+        },
+        {
+          "s": "INIT",
+          "in": "\\u096a",
+          "out": 4
+        },
+        {
+          "s": "INIT",
+          "in": "\\u096b",
+          "out": 5
+        },
+        {
+          "s": "INIT",
+          "in": "\\u096c",
+          "out": 6
+        },
+        {
+          "s": "INIT",
+          "in": "\\u096d",
+          "out": 7
+        },
+        {
+          "s": "INIT",
+          "in": "\\u096e",
+          "out": 8
+        },
+        {
+          "s": "INIT",
+          "in": "\\u096f",
+          "out": 9
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0901",
+          "out": "~"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0950",
+          "out": "o~"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0903\\u0951",
+          "out": "/H"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u0902\\u0951",
+          "out": "/M"
+        },
+        {
+          "s": "INIT",
+          "in": "\\u1ce0",
+          "out": "^"
+        }
+      ]
+    }
+  },
+  "hk_slp1": {
+    "fsm": {
+      "attr": {
+        "start": "INIT",
+        "inputDecoding": "UTF-8",
+        "outputEncoding": "UTF-8"
+      },
+      "e": [
+        {
+          "s": "INIT",
+          "in": "R",
+          "out": "f"
+        },
+        {
+          "s": "INIT",
+          "in": "RR",
+          "out": "F"
+        },
+        {
+          "s": "INIT",
+          "in": "ai",
+          "out": "E"
+        },
+        {
+          "s": "INIT",
+          "in": "au",
+          "out": "O"
+        },
+        {
+          "s": "INIT",
+          "in": "kh",
+          "out": "K"
+        },
+        {
+          "s": "INIT",
+          "in": "gh",
+          "out": "G"
+        },
+        {
+          "s": "INIT",
+          "in": "G",
+          "out": "N"
+        },
+        {
+          "s": "INIT",
+          "in": "ch",
+          "out": "C"
+        },
+        {
+          "s": "INIT",
+          "in": "jh",
+          "out": "J"
+        },
+        {
+          "s": "INIT",
+          "in": "J",
+          "out": "Y"
+        },
+        {
+          "s": "INIT",
+          "in": "T",
+          "out": "w"
+        },
+        {
+          "s": "INIT",
+          "in": "Th",
+          "out": "W"
+        },
+        {
+          "s": "INIT",
+          "in": "D",
+          "out": "q"
+        },
+        {
+          "s": "INIT",
+          "in": "Dh",
+          "out": "Q"
+        },
+        {
+          "s": "INIT",
+          "in": "N",
+          "out": "R"
+        },
+        {
+          "s": "INIT",
+          "in": "th",
+          "out": "T"
+        },
+        {
+          "s": "INIT",
+          "in": "dh",
+          "out": "D"
+        },
+        {
+          "s": "INIT",
+          "in": "ph",
+          "out": "P"
+        },
+        {
+          "s": "INIT",
+          "in": "bh",
+          "out": "B"
+        },
+        {
+          "s": "INIT",
+          "in": "z",
+          "out": "S"
+        },
+        {
+          "s": "INIT",
+          "in": "S",
+          "out": "z"
+        },
+        {
+          "s": "INIT",
+          "in": "R",
+          "out": "f"
+        },
+        {
+          "s": "INIT",
+          "in": "RR",
+          "out": "F"
+        },
+        {
+          "s": "INIT",
+          "in": "L",
+          "out": "L"
+        },
+        {
+          "s": "INIT",
+          "in": "Lh",
+          "out": "|"
+        },
+        {
+          "s": "INIT",
+          "in": "lR",
+          "out": "x"
+        },
+        {
+          "s": "INIT",
+          "in": "lRR",
+          "out": "X"
+        },
+        {
+          "s": "INIT",
+          "in": "|",
+          "out": "."
+        },
+        {
+          "s": "INIT",
+          "in": "a0i",
+          "out": "ai"
+        },
+        {
+          "s": "INIT",
+          "in": "a0u",
+          "out": "au"
+        },
+        {
+          "s": "INIT",
+          "in": "d0h",
+          "out": "dh"
+        },
+        {
+          "s": "INIT",
+          "in": "g0h",
+          "out": "gh"
+        },
+        {
+          "s": "INIT",
+          "in": "l0f",
+          "out": "lf"
+        },
+        {
+          "s": "INIT",
+          "in": "t0h",
+          "out": "th"
+        }
+      ]
+    }
+  },
+  "itrans_slp1": {
+    "fsm": {
+      "attr": {
+        "start": "INIT"
+      },
+      "e": [
+        {
+          "s": "INIT",
+          "in": ".",
+          "out": "."
+        },
+        {
+          "s": "INIT",
+          "in": ".a",
+          "out": "'"
+        },
+        {
+          "s": "INIT",
+          "in": ".m",
+          "out": "M"
+        },
+        {
+          "s": "INIT",
+          "in": ".n",
+          "out": "M"
+        },
+        {
+          "s": "INIT",
+          "in": ".N",
+          "out": "~"
+        },
+        {
+          "s": "INIT",
+          "in": "C",
+          "out": ""
+        },
+        {
+          "s": "INIT",
+          "in": "Ch",
+          "out": "C"
+        },
+        {
+          "s": "INIT",
+          "in": "D",
+          "out": "q"
+        },
+        {
+          "s": "INIT",
+          "in": "Dh",
+          "out": "Q"
+        },
+        {
+          "s": "INIT",
+          "in": "GY",
+          "out": "jY"
+        },
+        {
+          "s": "INIT",
+          "in": "dny",
+          "out": "jY"
+        },
+        {
+          "s": "INIT",
+          "in": "H",
+          "out": "H"
+        },
+        {
+          "s": "INIT",
+          "in": "LI",
+          "out": "X"
+        },
+        {
+          "s": "INIT",
+          "in": "LLI",
+          "out": "X"
+        },
+        {
+          "s": "INIT",
+          "in": "LLi",
+          "out": "x"
+        },
+        {
+          "s": "INIT",
+          "in": "L^I",
+          "out": "X"
+        },
+        {
+          "s": "INIT",
+          "in": "L^i",
+          "out": "x"
+        },
+        {
+          "s": "INIT",
+          "in": "Li",
+          "out": "x"
+        },
+        {
+          "s": "INIT",
+          "in": "L^",
+          "out": ""
+        },
+        {
+          "s": "INIT",
+          "in": "L",
+          "out": "L"
+        },
+        {
+          "s": "INIT",
+          "in": "LL",
+          "out": ""
+        },
+        {
+          "s": "INIT",
+          "in": "M",
+          "out": "M"
+        },
+        {
+          "s": "INIT",
+          "in": "N",
+          "out": "R"
+        },
+        {
+          "s": "INIT",
+          "in": "RI",
+          "out": "F"
+        },
+        {
+          "s": "INIT",
+          "in": "RRI",
+          "out": "F"
+        },
+        {
+          "s": "INIT",
+          "in": "RRi",
+          "out": "f"
+        },
+        {
+          "s": "INIT",
+          "in": "R^I",
+          "out": "F"
+        },
+        {
+          "s": "INIT",
+          "in": "R^i",
+          "out": "f"
+        },
+        {
+          "s": "INIT",
+          "in": "Ri",
+          "out": "f"
+        },
+        {
+          "s": "INIT",
+          "in": "R^",
+          "out": ""
+        },
+        {
+          "s": "INIT",
+          "in": "R",
+          "out": ""
+        },
+        {
+          "s": "INIT",
+          "in": "RR",
+          "out": ""
+        },
+        {
+          "s": "INIT",
+          "in": "S",
+          "out": ""
+        },
+        {
+          "s": "INIT",
+          "in": "Sh",
+          "out": "z"
+        },
+        {
+          "s": "INIT",
+          "in": "T",
+          "out": "w"
+        },
+        {
+          "s": "INIT",
+          "in": "Th",
+          "out": "W"
+        },
+        {
+          "s": "INIT",
+          "in": "a",
+          "out": "a"
+        },
+        {
+          "s": "INIT",
+          "in": "aa",
+          "out": "A"
+        },
+        {
+          "s": "INIT",
+          "in": "ai",
+          "out": "E"
+        },
+        {
+          "s": "INIT",
+          "in": "au",
+          "out": "O"
+        },
+        {
+          "s": "INIT",
+          "in": "b",
+          "out": "b"
+        },
+        {
+          "s": "INIT",
+          "in": "bh",
+          "out": "B"
+        },
+        {
+          "s": "INIT",
+          "in": "c",
+          "out": ""
+        },
+        {
+          "s": "INIT",
+          "in": "ch",
+          "out": "c"
+        },
+        {
+          "s": "INIT",
+          "in": "chh",
+          "out": "C"
+        },
+        {
+          "s": "INIT",
+          "in": "d",
+          "out": "d"
+        },
+        {
+          "s": "INIT",
+          "in": "dh",
+          "out": "D"
+        },
+        {
+          "s": "INIT",
+          "in": "g",
+          "out": "g"
+        },
+        {
+          "s": "INIT",
+          "in": "gh",
+          "out": "G"
+        },
+        {
+          "s": "INIT",
+          "in": "i",
+          "out": "i"
+        },
+        {
+          "s": "INIT",
+          "in": "ii",
+          "out": "I"
+        },
+        {
+          "s": "INIT",
+          "in": "j",
+          "out": "j"
+        },
+        {
+          "s": "INIT",
+          "in": "jh",
+          "out": "J"
+        },
+        {
+          "s": "INIT",
+          "in": "k",
+          "out": "k"
+        },
+        {
+          "s": "INIT",
+          "in": "kh",
+          "out": "K"
+        },
+        {
+          "s": "INIT",
+          "in": "kSh",
+          "out": "kz"
+        },
+        {
+          "s": "INIT",
+          "in": "p",
+          "out": "p"
+        },
+        {
+          "s": "INIT",
+          "in": "ph",
+          "out": "P"
+        },
+        {
+          "s": "INIT",
+          "in": "s",
+          "out": "s"
+        },
+        {
+          "s": "INIT",
+          "in": "sh",
+          "out": "S"
+        },
+        {
+          "s": "INIT",
+          "in": "t",
+          "out": "t"
+        },
+        {
+          "s": "INIT",
+          "in": "th",
+          "out": "T"
+        },
+        {
+          "s": "INIT",
+          "in": "u",
+          "out": "u"
+        },
+        {
+          "s": "INIT",
+          "in": "uu",
+          "out": "U"
+        },
+        {
+          "s": "INIT",
+          "in": "y",
+          "out": "y"
+        },
+        {
+          "s": "INIT",
+          "in": "r",
+          "out": "r"
+        },
+        {
+          "s": "INIT",
+          "in": "l",
+          "out": "l"
+        },
+        {
+          "s": "INIT",
+          "in": "v",
+          "out": "v"
+        },
+        {
+          "s": "INIT",
+          "in": "w",
+          "out": "v"
+        },
+        {
+          "s": "INIT",
+          "in": "x",
+          "out": "kz"
+        },
+        {
+          "s": "INIT",
+          "in": "~N",
+          "out": "N"
+        },
+        {
+          "s": "INIT",
+          "in": "~n",
+          "out": "Y"
+        },
+        {
+          "s": "INIT",
+          "in": "~",
+          "out": ""
+        },
+        {
+          "s": "INIT",
+          "in": "Li0",
+          "out": "Li"
+        },
+        {
+          "s": "INIT",
+          "in": "au0",
+          "out": "au"
+        },
+        {
+          "s": "INIT",
+          "in": "ai0",
+          "out": "ai"
+        },
+        {
+          "s": "INIT",
+          "in": "a0ii",
+          "out": "aI"
+        },
+        {
+          "s": "INIT",
+          "in": "a0aa",
+          "out": "aA"
+        },
+        {
+          "s": "INIT",
+          "in": "aa0a",
+          "out": "Aa"
+        },
+        {
+          "s": "INIT",
+          "in": "a0uu",
+          "out": "aU"
+        }
+      ]
+    }
+  },
+  "roman_slp1": {
+    "fsm": {
+      "attr": {
+        "start": "SKT",
+        "inputDecoding": "UTF-8",
+        "outputEncoding": "UTF-8"
+      },
+      "e": [
+        {
+          "s": "SKT",
+          "in": "ai",
+          "out": "E"
+        },
+        {
+          "s": "SKT",
+          "in": "au",
+          "out": "O"
+        },
+        {
+          "s": "SKT",
+          "in": "kh",
+          "out": "K"
+        },
+        {
+          "s": "SKT",
+          "in": "gh",
+          "out": "G"
+        },
+        {
+          "s": "SKT",
+          "in": "ch",
+          "out": "C"
+        },
+        {
+          "s": "SKT",
+          "in": "jh",
+          "out": "J"
+        },
+        {
+          "s": "SKT",
+          "in": "th",
+          "out": "T"
+        },
+        {
+          "s": "SKT",
+          "in": "dh",
+          "out": "D"
+        },
+        {
+          "s": "SKT",
+          "in": "ph",
+          "out": "P"
+        },
+        {
+          "s": "SKT",
+          "in": "bh",
+          "out": "B"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e6dh",
+          "out": "W"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e0dh",
+          "out": "Q"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00e1",
+          "out": "a/"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00ed",
+          "out": "i/"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00fa",
+          "out": "u/"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e5b\\u0301",
+          "out": "f/"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e37\\u0301",
+          "out": "x/"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u0101\\u0301",
+          "out": "A/"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u012b\\u0301",
+          "out": "I/"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u016b\\u0301",
+          "out": "U/"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e5d\\u0301",
+          "out": "F/"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e39\\u0301",
+          "out": "X/"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00e9",
+          "out": "e/"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00f3",
+          "out": "o/"
+        },
+        {
+          "s": "SKT",
+          "in": "a\\u00ed",
+          "out": "E/"
+        },
+        {
+          "s": "SKT",
+          "in": "a\\u00fa",
+          "out": "O/"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00e0",
+          "out": "^a"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00ec",
+          "out": "^i"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00f9",
+          "out": "^u"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e5b\\u0300",
+          "out": "^f"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e37\\u0300",
+          "out": "^x"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u0101\\u0300",
+          "out": "^A"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u012b\\u0300",
+          "out": "^I"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u016b\\u0300",
+          "out": "^U"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e5d\\u0300",
+          "out": "^F"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e39\\u0300",
+          "out": "^X"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00e8",
+          "out": "^e"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00f2",
+          "out": "^o"
+        },
+        {
+          "s": "SKT",
+          "in": "a\\u00ec",
+          "out": "^E"
+        },
+        {
+          "s": "SKT",
+          "in": "a\\u00f9",
+          "out": "^O"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00e0",
+          "out": "`a"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00ec",
+          "out": "`i"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00f9",
+          "out": "`u"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e5b\\u0300",
+          "out": "`f"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e37\\u0300",
+          "out": "`x"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u0101\\u0300",
+          "out": "`A"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u012b\\u0300",
+          "out": "`I"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u016b\\u0300",
+          "out": "`U"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e5d\\u0300",
+          "out": "`F"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e39\\u0300",
+          "out": "`X"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00e8",
+          "out": "`e"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00f2",
+          "out": "`o"
+        },
+        {
+          "s": "SKT",
+          "in": "a\\u00ec",
+          "out": "`E"
+        },
+        {
+          "s": "SKT",
+          "in": "a\\u00f9",
+          "out": "`O"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e5b",
+          "out": "f"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e37",
+          "out": "x"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u0101",
+          "out": "A"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u012b",
+          "out": "I"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u016b",
+          "out": "U"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e5d",
+          "out": "F"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e39",
+          "out": "X"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e45",
+          "out": "N"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00f1",
+          "out": "Y"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e6d",
+          "out": "w"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e0d",
+          "out": "q"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e47",
+          "out": "R"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u015b",
+          "out": "S"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e63",
+          "out": "z"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e25",
+          "out": "H"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e43",
+          "out": "M"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e41",
+          "out": "M"
+        },
+        {
+          "s": "SKT",
+          "in": "'",
+          "out": "'"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e37",
+          "out": "L"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e37h",
+          "out": "|"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u0303",
+          "out": "~"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u00e7",
+          "out": "S"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e49",
+          "out": "N"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u1e3b",
+          "out": "x"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u014d",
+          "out": "o"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u0113",
+          "out": "e"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u0101\\u0069",
+          "out": "E"
+        },
+        {
+          "s": "SKT",
+          "in": "\\u0101\\u0075",
+          "out": "O"
+        }
+      ]
+    }
+  },
+  "slp1_as": {
+    "fsm": {
+      "attr": {
+        "start": "SKT",
+        "inputDecoding": "UTF-8",
+        "outputEncoding": "UTF-8"
+      },
+      "e": [
+        {
+          "s": "SKT",
+          "in": "E",
+          "out": "ai"
+        },
+        {
+          "s": "SKT",
+          "in": "O",
+          "out": "au"
+        },
+        {
+          "s": "SKT",
+          "in": "K",
+          "out": "kh"
+        },
+        {
+          "s": "SKT",
+          "in": "G",
+          "out": "gh"
+        },
+        {
+          "s": "SKT",
+          "in": "C",
+          "out": "ch"
+        },
+        {
+          "s": "SKT",
+          "in": "J",
+          "out": "jh"
+        },
+        {
+          "s": "SKT",
+          "in": "T",
+          "out": "th"
+        },
+        {
+          "s": "SKT",
+          "in": "D",
+          "out": "dh"
+        },
+        {
+          "s": "SKT",
+          "in": "P",
+          "out": "ph"
+        },
+        {
+          "s": "SKT",
+          "in": "B",
+          "out": "bh"
+        },
+        {
+          "s": "SKT",
+          "in": "W",
+          "out": "t2h"
+        },
+        {
+          "s": "SKT",
+          "in": "Q",
+          "out": "d2h"
+        },
+        {
+          "s": "SKT",
+          "in": "f",
+          "out": "r2"
+        },
+        {
+          "s": "SKT",
+          "in": "x",
+          "out": "x"
+        },
+        {
+          "s": "SKT",
+          "in": "A",
+          "out": "a1"
+        },
+        {
+          "s": "SKT",
+          "in": "I",
+          "out": "i1"
+        },
+        {
+          "s": "SKT",
+          "in": "U",
+          "out": "u1"
+        },
+        {
+          "s": "SKT",
+          "in": "F",
+          "out": "F"
+        },
+        {
+          "s": "SKT",
+          "in": "X",
+          "out": "X"
+        },
+        {
+          "s": "SKT",
+          "in": "N",
+          "out": "n3"
+        },
+        {
+          "s": "SKT",
+          "in": "Y",
+          "out": "n5"
+        },
+        {
+          "s": "SKT",
+          "in": "w",
+          "out": "t2"
+        },
+        {
+          "s": "SKT",
+          "in": "q",
+          "out": "d2"
+        },
+        {
+          "s": "SKT",
+          "in": "R",
+          "out": "n2"
+        },
+        {
+          "s": "SKT",
+          "in": "S",
+          "out": "s4"
+        },
+        {
+          "s": "SKT",
+          "in": "z",
+          "out": "s2",
+          "next": "SKT"
+        },
+        {
+          "s": "SKT",
+          "in": "H",
+          "out": "h2"
+        },
+        {
+          "s": "SKT",
+          "in": "M",
+          "out": "m2"
+        },
+        {
+          "s": "SKT",
+          "in": "'",
+          "out": "'"
+        }
+      ]
+    }
+  },
+  "slp1_deva": {
+    "fsm": {
+      "attr": {
+        "start": "INIT"
+      },
+      "e": [
+        {
+          "s": "INIT",
+          "in": "a",
+          "out": "\\u0905",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT",
+          "in": "A",
+          "out": "\\u0906",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT",
+          "in": "i",
+          "out": "\\u0907",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT",
+          "in": "I",
+          "out": "\\u0908",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT",
+          "in": "u",
+          "out": "\\u0909",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT",
+          "in": "U",
+          "out": "\\u090a",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT",
+          "in": "f",
+          "out": "\\u090b",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT",
+          "in": "F",
+          "out": "\\u0960",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT",
+          "in": "x",
+          "out": "\\u090c",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT",
+          "in": "X",
+          "out": "\\u0961",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT",
+          "in": "e",
+          "out": "\\u090f",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT",
+          "in": "E",
+          "out": "\\u0910",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT",
+          "in": "o",
+          "out": "\\u0913",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT",
+          "in": "O",
+          "out": "\\u0914",
+          "next": "INIT"
+        },
+        {
+          "s": "SKT",
+          "in": "a",
+          "out": "",
+          "next": "INIT"
+        },
+        {
+          "s": "SKT",
+          "in": "A",
+          "out": "\\u093e",
+          "next": "INIT"
+        },
+        {
+          "s": "SKT",
+          "in": "i",
+          "out": "\\u093f",
+          "next": "INIT"
+        },
+        {
+          "s": "SKT",
+          "in": "I",
+          "out": "\\u0940",
+          "next": "INIT"
+        },
+        {
+          "s": "SKT",
+          "in": "u",
+          "out": "\\u0941",
+          "next": "INIT"
+        },
+        {
+          "s": "SKT",
+          "in": "U",
+          "out": "\\u0942",
+          "next": "INIT"
+        },
+        {
+          "s": "SKT",
+          "in": "f",
+          "out": "\\u0943",
+          "next": "INIT"
+        },
+        {
+          "s": "SKT",
+          "in": "F",
+          "out": "\\u0944",
+          "next": "INIT"
+        },
+        {
+          "s": "SKT",
+          "in": "x",
+          "out": "\\u0962",
+          "next": "INIT"
+        },
+        {
+          "s": "SKT",
+          "in": "X",
+          "out": "\\u0963",
+          "next": "INIT"
+        },
+        {
+          "s": "SKT",
+          "in": "e",
+          "out": "\\u0947",
+          "next": "INIT"
+        },
+        {
+          "s": "SKT",
+          "in": "E",
+          "out": "\\u0948",
+          "next": "INIT"
+        },
+        {
+          "s": "SKT",
+          "in": "o",
+          "out": "\\u094b",
+          "next": "INIT"
+        },
+        {
+          "s": "SKT",
+          "in": "O",
+          "out": "\\u094c",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "k/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0915\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "K/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0916\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "g/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0917\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "G/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0918\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "N/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0919\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "c/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u091a\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "C/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u091b\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "j/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u091c\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "J/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u091d\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "Y/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u091e\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "w/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u091f\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "W/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0920\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "q/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0921\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "Q/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0922\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "R/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0923\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "t/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0924\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "T/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0925\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "d/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0926\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "D/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0927\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "n/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0928\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "p/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u092a\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "P/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u092b\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "b/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u092c\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "B/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u092d\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "m/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u092e\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "y/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u092f\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "r/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0930\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "l/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0932\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "L/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0933\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "|/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0933\\u094d\\u0939\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "v/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0935\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "S/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0936\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "z/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0937\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "s/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0938\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "h/^([^aAiIuUfFxXeEoO^/\\\\])",
+          "out": "\\u0939\\u094d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "k",
+          "out": "\\u0915",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "K",
+          "out": "\\u0916",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "g",
+          "out": "\\u0917",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "G",
+          "out": "\\u0918",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "N",
+          "out": "\\u0919",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "c",
+          "out": "\\u091a",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "C",
+          "out": "\\u091b",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "j",
+          "out": "\\u091c",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "J",
+          "out": "\\u091d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "Y",
+          "out": "\\u091e",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "w",
+          "out": "\\u091f",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "W",
+          "out": "\\u0920",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "q",
+          "out": "\\u0921",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "Q",
+          "out": "\\u0922",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "R",
+          "out": "\\u0923",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "t",
+          "out": "\\u0924",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "T",
+          "out": "\\u0925",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "d",
+          "out": "\\u0926",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "D",
+          "out": "\\u0927",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "n",
+          "out": "\\u0928",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "p",
+          "out": "\\u092a",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "P",
+          "out": "\\u092b",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "b",
+          "out": "\\u092c",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "B",
+          "out": "\\u092d",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "m",
+          "out": "\\u092e",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "y",
+          "out": "\\u092f",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "r",
+          "out": "\\u0930",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "l",
+          "out": "\\u0932",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "L",
+          "out": "\\u0933",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "|",
+          "out": "\\u0933\\u094d\\u0939",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "v",
+          "out": "\\u0935",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "S",
+          "out": "\\u0936",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "z",
+          "out": "\\u0937",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "s",
+          "out": "\\u0938",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "h",
+          "out": "\\u0939",
+          "next": "SKT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "M",
+          "out": "\\u0902",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "H",
+          "out": "\\u0903",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "'",
+          "out": "\\u093d",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": ".",
+          "out": "\\u0964",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "..",
+          "out": "\\u0965",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": 0,
+          "out": "\\u0966",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": 1,
+          "out": "\\u0967",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": 2,
+          "out": "\\u0968",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": 3,
+          "out": "\\u0969",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": 4,
+          "out": "\\u096a",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": 5,
+          "out": "\\u096b",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": 6,
+          "out": "\\u096c",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": 7,
+          "out": "\\u096d",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": 8,
+          "out": "\\u096e",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": 9,
+          "out": "\\u096f",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "\\u0020",
+          "out": "\\u0020",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "\\u0009",
+          "out": "\\u0009",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "\\u000d",
+          "out": "\\u000d",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "\\u000a",
+          "out": "\\u000a",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "-",
+          "out": "-",
+          "next": "INIT"
+        },
+        {
+          "attr": {
+            "n": "122"
+          },
+          "s": "INIT,SKT",
+          "in": "\\",
+          "out": "\\u0952",
+          "cl": "accent"
+        },
+        {
+          "attr": {
+            "n": "122a"
+          },
+          "s": "INIT,SKT",
+          "in": "\\H",
+          "out": "\\u0903\\u0952",
+          "cl": "accent"
+        },
+        {
+          "attr": {
+            "n": "122b"
+          },
+          "s": "INIT,SKT",
+          "in": "\\M",
+          "out": "\\u0902\\u0952",
+          "cl": "accent"
+        },
+        {
+          "attr": {
+            "n": "123"
+          },
+          "s": "INIT,SKT",
+          "in": "/",
+          "out": "\\u0951",
+          "cl": "accent"
+        },
+        {
+          "attr": {
+            "n": "123a"
+          },
+          "s": "INIT,SKT",
+          "in": "/H",
+          "out": "\\u0903\\u0951",
+          "cl": "accent"
+        },
+        {
+          "attr": {
+            "n": "123b"
+          },
+          "s": "INIT,SKT",
+          "in": "/M",
+          "out": "\\u0902\\u0951",
+          "cl": "accent"
+        },
+        {
+          "attr": {
+            "n": "124"
+          },
+          "s": "INIT,SKT",
+          "in": "^",
+          "out": "\\u1ce0",
+          "cl": "atom"
+        },
+        {
+          "attr": {
+            "n": "124a"
+          },
+          "s": "INIT,SKT",
+          "in": "^H",
+          "out": "\\u0903\\u1ce0",
+          "cl": "atom"
+        },
+        {
+          "attr": {
+            "n": "124b"
+          },
+          "s": "INIT,SKT",
+          "in": "^M",
+          "out": "\\u0902\\u1ce0",
+          "cl": "atom"
+        },
+        {
+          "attr": {
+            "n": "125"
+          },
+          "s": "INIT,SKT",
+          "in": "~",
+          "out": "\\u0901",
+          "cl": "atom"
+        },
+        {
+          "attr": {
+            "n": "126"
+          },
+          "s": "INIT,SKT",
+          "in": "o~",
+          "out": "\\u0950",
+          "cl": "atom"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "Z",
+          "out": "\\u1cf2",
+          "next": "INIT"
+        },
+        {
+          "s": "INIT,SKT",
+          "in": "V",
+          "out": "\\u1cf2",
+          "next": "INIT"
+        }
+      ]
+    }
+  },
+  "slp1_hk": {
+    "fsm": {
+      "attr": {
+        "start": "INIT",
+        "inputDecoding": "UTF-8",
+        "outputEncoding": "UTF-8"
+      },
+      "e": [
+        {
+          "s": "INIT",
+          "in": "f",
+          "out": "R"
+        },
+        {
+          "s": "INIT",
+          "in": "F",
+          "out": "RR"
+        },
+        {
+          "s": "INIT",
+          "in": "E",
+          "out": "ai"
+        },
+        {
+          "s": "INIT",
+          "in": "O",
+          "out": "au"
+        },
+        {
+          "s": "INIT",
+          "in": "K",
+          "out": "kh"
+        },
+        {
+          "s": "INIT",
+          "in": "G",
+          "out": "gh"
+        },
+        {
+          "s": "INIT",
+          "in": "N",
+          "out": "G"
+        },
+        {
+          "s": "INIT",
+          "in": "C",
+          "out": "ch"
+        },
+        {
+          "s": "INIT",
+          "in": "J",
+          "out": "jh"
+        },
+        {
+          "s": "INIT",
+          "in": "Y",
+          "out": "J"
+        },
+        {
+          "s": "INIT",
+          "in": "w",
+          "out": "T"
+        },
+        {
+          "s": "INIT",
+          "in": "W",
+          "out": "Th"
+        },
+        {
+          "s": "INIT",
+          "in": "q",
+          "out": "D"
+        },
+        {
+          "s": "INIT",
+          "in": "Q",
+          "out": "Dh"
+        },
+        {
+          "s": "INIT",
+          "in": "R",
+          "out": "N"
+        },
+        {
+          "s": "INIT",
+          "in": "T",
+          "out": "th"
+        },
+        {
+          "s": "INIT",
+          "in": "D",
+          "out": "dh"
+        },
+        {
+          "s": "INIT",
+          "in": "P",
+          "out": "ph"
+        },
+        {
+          "s": "INIT",
+          "in": "B",
+          "out": "bh"
+        },
+        {
+          "s": "INIT",
+          "in": "S",
+          "out": "z"
+        },
+        {
+          "s": "INIT",
+          "in": "z",
+          "out": "S"
+        },
+        {
+          "s": "INIT",
+          "in": "x",
+          "out": "lR"
+        },
+        {
+          "s": "INIT",
+          "in": "X",
+          "out": "lRR"
+        },
+        {
+          "s": "INIT",
+          "in": "L",
+          "out": "L"
+        },
+        {
+          "s": "INIT",
+          "in": "|",
+          "out": "Lh"
+        },
+        {
+          "s": "INIT",
+          "in": "ai",
+          "out": "a0i"
+        },
+        {
+          "s": "INIT",
+          "in": "au",
+          "out": "a0u"
+        },
+        {
+          "s": "INIT",
+          "in": "dh",
+          "out": "d0h"
+        },
+        {
+          "s": "INIT",
+          "in": "gh",
+          "out": "g0h"
+        },
+        {
+          "s": "INIT",
+          "in": "lf",
+          "out": "l0f"
+        },
+        {
+          "s": "INIT",
+          "in": "th",
+          "out": "t0h"
+        }
+      ]
+    }
+  },
+  "slp1_itrans": {
+    "fsm": {
+      "attr": {
+        "start": "INIT",
+        "inputDecoding": "UTF-8",
+        "outputEncoding": "UTF-8"
+      },
+      "e": [
+        {
+          "s": "INIT",
+          "in": "M",
+          "out": ".n"
+        },
+        {
+          "s": "INIT",
+          "in": "'",
+          "out": ".a"
+        },
+        {
+          "s": "INIT",
+          "in": "C",
+          "out": "Ch"
+        },
+        {
+          "s": "INIT",
+          "in": "Q",
+          "out": "Dh"
+        },
+        {
+          "s": "INIT",
+          "in": "q",
+          "out": "D"
+        },
+        {
+          "s": "INIT",
+          "in": "jY",
+          "out": "GY"
+        },
+        {
+          "s": "INIT",
+          "in": "x",
+          "out": "L^i"
+        },
+        {
+          "s": "INIT",
+          "in": "x",
+          "out": "LLi"
+        },
+        {
+          "s": "INIT",
+          "in": "x",
+          "out": "Li"
+        },
+        {
+          "s": "INIT",
+          "in": "X",
+          "out": "L^I"
+        },
+        {
+          "s": "INIT",
+          "in": "X",
+          "out": "LLI"
+        },
+        {
+          "s": "INIT",
+          "in": "X",
+          "out": "LI"
+        },
+        {
+          "s": "INIT",
+          "in": "R",
+          "out": "N"
+        },
+        {
+          "s": "INIT",
+          "in": "f",
+          "out": "R^i"
+        },
+        {
+          "s": "INIT",
+          "in": "f",
+          "out": "RRi"
+        },
+        {
+          "s": "INIT",
+          "in": "f",
+          "out": "Ri"
+        },
+        {
+          "s": "INIT",
+          "in": "F",
+          "out": "R^I"
+        },
+        {
+          "s": "INIT",
+          "in": "F",
+          "out": "RRI"
+        },
+        {
+          "s": "INIT",
+          "in": "F",
+          "out": "RI"
+        },
+        {
+          "s": "INIT",
+          "in": "z",
+          "out": "Sh"
+        },
+        {
+          "s": "INIT",
+          "in": "W",
+          "out": "Th"
+        },
+        {
+          "s": "INIT",
+          "in": "w",
+          "out": "T"
+        },
+        {
+          "s": "INIT",
+          "in": "A",
+          "out": "aa"
+        },
+        {
+          "s": "INIT",
+          "in": "E",
+          "out": "ai"
+        },
+        {
+          "s": "INIT",
+          "in": "O",
+          "out": "au"
+        },
+        {
+          "s": "INIT",
+          "in": "B",
+          "out": "bh"
+        },
+        {
+          "s": "INIT",
+          "in": "C",
+          "out": "chh"
+        },
+        {
+          "s": "INIT",
+          "in": "c",
+          "out": "ch"
+        },
+        {
+          "s": "INIT",
+          "in": "D",
+          "out": "dh"
+        },
+        {
+          "s": "INIT",
+          "in": "G",
+          "out": "gh"
+        },
+        {
+          "s": "INIT",
+          "in": "I",
+          "out": "ii"
+        },
+        {
+          "s": "INIT",
+          "in": "J",
+          "out": "jh"
+        },
+        {
+          "s": "INIT",
+          "in": "K",
+          "out": "kh"
+        },
+        {
+          "s": "INIT",
+          "in": "P",
+          "out": "ph"
+        },
+        {
+          "s": "INIT",
+          "in": "z",
+          "out": "shh"
+        },
+        {
+          "s": "INIT",
+          "in": "S",
+          "out": "sh"
+        },
+        {
+          "s": "INIT",
+          "in": "T",
+          "out": "th"
+        },
+        {
+          "s": "INIT",
+          "in": "U",
+          "out": "uu"
+        },
+        {
+          "s": "INIT",
+          "in": "kz",
+          "out": "x"
+        },
+        {
+          "s": "INIT",
+          "in": "N",
+          "out": "~N"
+        },
+        {
+          "s": "INIT",
+          "in": "Y",
+          "out": "~n"
+        },
+        {
+          "s": "INIT",
+          "in": "Li",
+          "out": "Li0"
+        },
+        {
+          "s": "INIT",
+          "in": "au",
+          "out": "au0"
+        },
+        {
+          "s": "INIT",
+          "in": "ai",
+          "out": "ai0"
+        },
+        {
+          "s": "INIT",
+          "in": "aI",
+          "out": "a0ii"
+        },
+        {
+          "s": "INIT",
+          "in": "aA",
+          "out": "a0aa"
+        },
+        {
+          "s": "INIT",
+          "in": "Aa",
+          "out": "aa0a"
+        },
+        {
+          "s": "INIT",
+          "in": "aU",
+          "out": "a0uu"
+        }
+      ]
+    }
+  },
+  "slp1_roman": {
+    "fsm": {
+      "attr": {
+        "start": "SKT",
+        "inputDecoding": "UTF-8",
+        "outputEncoding": "UTF-8"
+      },
+      "e": [
+        {
+          "s": "SKT",
+          "in": "E",
+          "out": "ai"
+        },
+        {
+          "s": "SKT",
+          "in": "O",
+          "out": "au"
+        },
+        {
+          "s": "SKT",
+          "in": "K",
+          "out": "kh"
+        },
+        {
+          "s": "SKT",
+          "in": "G",
+          "out": "gh"
+        },
+        {
+          "s": "SKT",
+          "in": "C",
+          "out": "ch"
+        },
+        {
+          "s": "SKT",
+          "in": "J",
+          "out": "jh"
+        },
+        {
+          "s": "SKT",
+          "in": "T",
+          "out": "th"
+        },
+        {
+          "s": "SKT",
+          "in": "D",
+          "out": "dh"
+        },
+        {
+          "s": "SKT",
+          "in": "P",
+          "out": "ph"
+        },
+        {
+          "s": "SKT",
+          "in": "B",
+          "out": "bh"
+        },
+        {
+          "s": "SKT",
+          "in": "W",
+          "out": "\\u1e6dh"
+        },
+        {
+          "s": "SKT",
+          "in": "Q",
+          "out": "\\u1e0dh"
+        },
+        {
+          "s": "SKT",
+          "in": "a/",
+          "out": "\\u00e1"
+        },
+        {
+          "s": "SKT",
+          "in": "i/",
+          "out": "\\u00ed"
+        },
+        {
+          "s": "SKT",
+          "in": "u/",
+          "out": "\\u00fa"
+        },
+        {
+          "s": "SKT",
+          "in": "f/",
+          "out": "\\u1e5b\\u0301"
+        },
+        {
+          "s": "SKT",
+          "in": "x/",
+          "out": "\\u1e37\\u0301"
+        },
+        {
+          "s": "SKT",
+          "in": "A/",
+          "out": "\\u0101\\u0301"
+        },
+        {
+          "s": "SKT",
+          "in": "I/",
+          "out": "\\u012b\\u0301"
+        },
+        {
+          "s": "SKT",
+          "in": "U/",
+          "out": "\\u016b\\u0301"
+        },
+        {
+          "s": "SKT",
+          "in": "F/",
+          "out": "\\u1e5d\\u0301"
+        },
+        {
+          "s": "SKT",
+          "in": "X/",
+          "out": "\\u1e39\\u0301"
+        },
+        {
+          "s": "SKT",
+          "in": "e/",
+          "out": "\\u00e9"
+        },
+        {
+          "s": "SKT",
+          "in": "o/",
+          "out": "\\u00f3"
+        },
+        {
+          "s": "SKT",
+          "in": "E/",
+          "out": "a\\u00ed"
+        },
+        {
+          "s": "SKT",
+          "in": "O/",
+          "out": "a\\u00fa"
+        },
+        {
+          "s": "SKT",
+          "in": "M/",
+          "out": "\\u1e41\\u0301"
+        },
+        {
+          "s": "SKT",
+          "in": "H/",
+          "out": "\\u1e25\\u0301"
+        },
+        {
+          "s": "SKT",
+          "in": "a^",
+          "out": "\\u00e2"
+        },
+        {
+          "s": "SKT",
+          "in": "i^",
+          "out": "\\u00ee"
+        },
+        {
+          "s": "SKT",
+          "in": "u^",
+          "out": "\\u00fb"
+        },
+        {
+          "s": "SKT",
+          "in": "f^",
+          "out": "\\u1e5b\\u0302"
+        },
+        {
+          "s": "SKT",
+          "in": "x^",
+          "out": "\\u1e37\\u0302"
+        },
+        {
+          "s": "SKT",
+          "in": "A^",
+          "out": "\\u0101\\u0302"
+        },
+        {
+          "s": "SKT",
+          "in": "I^",
+          "out": "\\u012b\\u0302"
+        },
+        {
+          "s": "SKT",
+          "in": "U^",
+          "out": "\\u016b\\u0302"
+        },
+        {
+          "s": "SKT",
+          "in": "F^",
+          "out": "\\u1e5d\\u0302"
+        },
+        {
+          "s": "SKT",
+          "in": "X^",
+          "out": "\\u1e39\\u0302"
+        },
+        {
+          "s": "SKT",
+          "in": "e^",
+          "out": "\\u00ea"
+        },
+        {
+          "s": "SKT",
+          "in": "o^",
+          "out": "\\u00f4"
+        },
+        {
+          "s": "SKT",
+          "in": "E^",
+          "out": "a\\u00ee"
+        },
+        {
+          "s": "SKT",
+          "in": "O^",
+          "out": "a\\u00fb"
+        },
+        {
+          "s": "SKT",
+          "in": "M^",
+          "out": "\\u1e41\\u0302"
+        },
+        {
+          "s": "SKT",
+          "in": "H^",
+          "out": "\\u1e25\\u0302"
+        },
+        {
+          "s": "SKT",
+          "in": "a\\",
+          "out": "\\u00e0"
+        },
+        {
+          "s": "SKT",
+          "in": "i\\",
+          "out": "\\u00ec"
+        },
+        {
+          "s": "SKT",
+          "in": "u\\",
+          "out": "\\u00f9"
+        },
+        {
+          "s": "SKT",
+          "in": "f\\",
+          "out": "\\u1e5b\\u0300"
+        },
+        {
+          "s": "SKT",
+          "in": "x\\",
+          "out": "\\u1e37\\u0300"
+        },
+        {
+          "s": "SKT",
+          "in": "A\\",
+          "out": "\\u0101\\u0300"
+        },
+        {
+          "s": "SKT",
+          "in": "I\\",
+          "out": "\\u012b\\u0300"
+        },
+        {
+          "s": "SKT",
+          "in": "U\\",
+          "out": "\\u016b\\u0300"
+        },
+        {
+          "s": "SKT",
+          "in": "F\\",
+          "out": "\\u1e5d\\u0300"
+        },
+        {
+          "s": "SKT",
+          "in": "X\\",
+          "out": "\\u1e39\\u0300"
+        },
+        {
+          "s": "SKT",
+          "in": "e\\",
+          "out": "\\u00e8"
+        },
+        {
+          "s": "SKT",
+          "in": "o\\",
+          "out": "\\u00f2"
+        },
+        {
+          "s": "SKT",
+          "in": "E\\",
+          "out": "a\\u00ec"
+        },
+        {
+          "s": "SKT",
+          "in": "O\\",
+          "out": "a\\u00f9"
+        },
+        {
+          "s": "SKT",
+          "in": "M\\",
+          "out": "\\u1e41\\u0300"
+        },
+        {
+          "s": "SKT",
+          "in": "H\\",
+          "out": "\\u1e25\\u0300"
+        },
+        {
+          "s": "SKT",
+          "in": "f",
+          "out": "\\u1e5b"
+        },
+        {
+          "s": "SKT",
+          "in": "x",
+          "out": "\\u1e37"
+        },
+        {
+          "s": "SKT",
+          "in": "A",
+          "out": "\\u0101"
+        },
+        {
+          "s": "SKT",
+          "in": "I",
+          "out": "\\u012b"
+        },
+        {
+          "s": "SKT",
+          "in": "U",
+          "out": "\\u016b"
+        },
+        {
+          "s": "SKT",
+          "in": "F",
+          "out": "\\u1e5d"
+        },
+        {
+          "s": "SKT",
+          "in": "X",
+          "out": "\\u1e39"
+        },
+        {
+          "s": "SKT",
+          "in": "N",
+          "out": "\\u1e45"
+        },
+        {
+          "s": "SKT",
+          "in": "Y",
+          "out": "\\u00f1"
+        },
+        {
+          "s": "SKT",
+          "in": "w",
+          "out": "\\u1e6d"
+        },
+        {
+          "s": "SKT",
+          "in": "q",
+          "out": "\\u1e0d"
+        },
+        {
+          "s": "SKT",
+          "in": "R",
+          "out": "\\u1e47"
+        },
+        {
+          "s": "SKT",
+          "in": "S",
+          "out": "\\u015b"
+        },
+        {
+          "s": "SKT",
+          "in": "z",
+          "out": "\\u1e63",
+          "next": "SKT"
+        },
+        {
+          "s": "SKT",
+          "in": "H",
+          "out": "\\u1e25"
+        },
+        {
+          "s": "SKT",
+          "in": "M",
+          "out": "\\u1e41"
+        },
+        {
+          "s": "SKT",
+          "in": "'",
+          "out": "'"
+        },
+        {
+          "s": "SKT",
+          "in": "L",
+          "out": "\\u1e37"
+        },
+        {
+          "s": "SKT",
+          "in": "|",
+          "out": "\\u1e37h"
+        },
+        {
+          "s": "SKT",
+          "in": "~",
+          "out": "\\u0303"
+        },
+        {
+          "s": "SKT",
+          "in": "Z",
+          "out": "\\u1e96"
+        },
+        {
+          "s": "SKT",
+          "in": "V",
+          "out": "\\u1e2b"
+        }
+      ]
+    }
+  },
+  "slp1_wx": {
+    "fsm": {
+      "attr": {
+        "inputType": "slp1",
+        "outputType": "UTF-8",
+        "version": "2",
+        "testBlanks": "n",
+        "start": "INIT"
+      },
+      "e": [
+        {
+          "attr": {
+            "n": "0"
+          },
+          "s": "INIT",
+          "in": "a",
+          "out": "a"
+        },
+        {
+          "attr": {
+            "n": "1"
+          },
+          "s": "INIT",
+          "in": "A",
+          "out": "A"
+        },
+        {
+          "attr": {
+            "n": "2"
+          },
+          "s": "INIT",
+          "in": "i",
+          "out": "i"
+        },
+        {
+          "attr": {
+            "n": "3"
+          },
+          "s": "INIT",
+          "in": "I",
+          "out": "I"
+        },
+        {
+          "attr": {
+            "n": "4"
+          },
+          "s": "INIT",
+          "in": "u",
+          "out": "u"
+        },
+        {
+          "attr": {
+            "n": "5"
+          },
+          "s": "INIT",
+          "in": "U",
+          "out": "U"
+        },
+        {
+          "attr": {
+            "n": "6"
+          },
+          "s": "INIT",
+          "in": "f",
+          "out": "q"
+        },
+        {
+          "attr": {
+            "n": "7"
+          },
+          "s": "INIT",
+          "in": "F",
+          "out": "Q"
+        },
+        {
+          "attr": {
+            "n": "8"
+          },
+          "s": "INIT",
+          "in": "x",
+          "out": "L"
+        },
+        {
+          "attr": {
+            "n": "8a"
+          },
+          "s": "INIT",
+          "in": "X",
+          "out": "LY"
+        },
+        {
+          "attr": {
+            "n": "9"
+          },
+          "s": "INIT",
+          "in": "e",
+          "out": "e"
+        },
+        {
+          "attr": {
+            "n": "10"
+          },
+          "s": "INIT",
+          "in": "E",
+          "out": "E"
+        },
+        {
+          "attr": {
+            "n": "11"
+          },
+          "s": "INIT",
+          "in": "o",
+          "out": "o"
+        },
+        {
+          "attr": {
+            "n": "12"
+          },
+          "s": "INIT",
+          "in": "O",
+          "out": "O"
+        },
+        {
+          "attr": {
+            "n": "13"
+          },
+          "s": "INIT",
+          "in": "M",
+          "out": "M"
+        },
+        {
+          "attr": {
+            "n": "13a"
+          },
+          "s": "INIT",
+          "in": "~",
+          "out": "z"
+        },
+        {
+          "attr": {
+            "n": "14"
+          },
+          "s": "INIT",
+          "in": "H",
+          "out": "H"
+        },
+        {
+          "attr": {
+            "n": "15"
+          },
+          "s": "INIT",
+          "in": "k",
+          "out": "k"
+        },
+        {
+          "attr": {
+            "n": "16"
+          },
+          "s": "INIT",
+          "in": "K",
+          "out": "K"
+        },
+        {
+          "attr": {
+            "n": "17"
+          },
+          "s": "INIT",
+          "in": "g",
+          "out": "g"
+        },
+        {
+          "attr": {
+            "n": "18"
+          },
+          "s": "INIT",
+          "in": "G",
+          "out": "G"
+        },
+        {
+          "attr": {
+            "n": "19"
+          },
+          "s": "INIT",
+          "in": "N",
+          "out": "f"
+        },
+        {
+          "attr": {
+            "n": "20"
+          },
+          "s": "INIT",
+          "in": "c",
+          "out": "c"
+        },
+        {
+          "attr": {
+            "n": "21"
+          },
+          "s": "INIT",
+          "in": "C",
+          "out": "C"
+        },
+        {
+          "attr": {
+            "n": "22"
+          },
+          "s": "INIT",
+          "in": "j",
+          "out": "j"
+        },
+        {
+          "attr": {
+            "n": "23"
+          },
+          "s": "INIT",
+          "in": "J",
+          "out": "J"
+        },
+        {
+          "attr": {
+            "n": "24"
+          },
+          "s": "INIT",
+          "in": "Y",
+          "out": "F"
+        },
+        {
+          "attr": {
+            "n": "25"
+          },
+          "s": "INIT",
+          "in": "w",
+          "out": "t"
+        },
+        {
+          "attr": {
+            "n": "26"
+          },
+          "s": "INIT",
+          "in": "W",
+          "out": "T"
+        },
+        {
+          "attr": {
+            "n": "27"
+          },
+          "s": "INIT",
+          "in": "q",
+          "out": "d"
+        },
+        {
+          "attr": {
+            "n": "28"
+          },
+          "s": "INIT",
+          "in": "Q",
+          "out": "D"
+        },
+        {
+          "attr": {
+            "n": "29"
+          },
+          "s": "INIT",
+          "in": "R",
+          "out": "N"
+        },
+        {
+          "attr": {
+            "n": "29a"
+          },
+          "s": "INIT",
+          "in": "L",
+          "out": "lY"
+        },
+        {
+          "attr": {
+            "n": "29b"
+          },
+          "s": "INIT",
+          "in": "|",
+          "out": "lYh"
+        },
+        {
+          "attr": {
+            "n": "30"
+          },
+          "s": "INIT",
+          "in": "t",
+          "out": "w"
+        },
+        {
+          "attr": {
+            "n": "31"
+          },
+          "s": "INIT",
+          "in": "T",
+          "out": "W"
+        },
+        {
+          "attr": {
+            "n": "32"
+          },
+          "s": "INIT",
+          "in": "d",
+          "out": "x"
+        },
+        {
+          "attr": {
+            "n": "33"
+          },
+          "s": "INIT",
+          "in": "D",
+          "out": "X"
+        },
+        {
+          "attr": {
+            "n": "34"
+          },
+          "s": "INIT",
+          "in": "n",
+          "out": "n"
+        },
+        {
+          "attr": {
+            "n": "35"
+          },
+          "s": "INIT",
+          "in": "p",
+          "out": "p"
+        },
+        {
+          "attr": {
+            "n": "36"
+          },
+          "s": "INIT",
+          "in": "P",
+          "out": "P"
+        },
+        {
+          "attr": {
+            "n": "37"
+          },
+          "s": "INIT",
+          "in": "b",
+          "out": "b"
+        },
+        {
+          "attr": {
+            "n": "38"
+          },
+          "s": "INIT",
+          "in": "B",
+          "out": "B"
+        },
+        {
+          "attr": {
+            "n": "39"
+          },
+          "s": "INIT",
+          "in": "m",
+          "out": "m"
+        },
+        {
+          "attr": {
+            "n": "40"
+          },
+          "s": "INIT",
+          "in": "y",
+          "out": "y"
+        },
+        {
+          "attr": {
+            "n": "41"
+          },
+          "s": "INIT",
+          "in": "r",
+          "out": "r"
+        },
+        {
+          "attr": {
+            "n": "42"
+          },
+          "s": "INIT",
+          "in": "l",
+          "out": "l"
+        },
+        {
+          "attr": {
+            "n": "43"
+          },
+          "s": "INIT",
+          "in": "v",
+          "out": "v"
+        },
+        {
+          "attr": {
+            "n": "44"
+          },
+          "s": "INIT",
+          "in": "S",
+          "out": "S"
+        },
+        {
+          "attr": {
+            "n": "45"
+          },
+          "s": "INIT",
+          "in": "z",
+          "out": "R"
+        },
+        {
+          "attr": {
+            "n": "46"
+          },
+          "s": "INIT",
+          "in": "s",
+          "out": "s"
+        },
+        {
+          "attr": {
+            "n": "47"
+          },
+          "s": "INIT",
+          "in": "h",
+          "out": "h"
+        },
+        {
+          "attr": {
+            "n": "48"
+          },
+          "s": "INIT",
+          "in": "\\u0009",
+          "out": "\\u0009"
+        },
+        {
+          "attr": {
+            "n": "49"
+          },
+          "s": "INIT",
+          "in": "\\u000a",
+          "out": "\\u000a"
+        },
+        {
+          "attr": {
+            "n": "50"
+          },
+          "s": "INIT",
+          "in": "\\u000d",
+          "out": "\\u000d"
+        },
+        {
+          "attr": {
+            "n": "51"
+          },
+          "s": "INIT",
+          "in": "\\u0020",
+          "out": "\\u0020"
+        },
+        {
+          "attr": {
+            "n": "60"
+          },
+          "s": "INIT",
+          "in": 0,
+          "out": 0
+        },
+        {
+          "attr": {
+            "n": "61"
+          },
+          "s": "INIT",
+          "in": 1,
+          "out": 1
+        },
+        {
+          "attr": {
+            "n": "62"
+          },
+          "s": "INIT",
+          "in": 2,
+          "out": 2
+        },
+        {
+          "attr": {
+            "n": "63"
+          },
+          "s": "INIT",
+          "in": 3,
+          "out": 3
+        },
+        {
+          "attr": {
+            "n": "64"
+          },
+          "s": "INIT",
+          "in": 4,
+          "out": 4
+        },
+        {
+          "attr": {
+            "n": "65"
+          },
+          "s": "INIT",
+          "in": 5,
+          "out": 5
+        },
+        {
+          "attr": {
+            "n": "66"
+          },
+          "s": "INIT",
+          "in": 6,
+          "out": 6
+        },
+        {
+          "attr": {
+            "n": "67"
+          },
+          "s": "INIT",
+          "in": 7,
+          "out": 7
+        },
+        {
+          "attr": {
+            "n": "68"
+          },
+          "s": "INIT",
+          "in": 8,
+          "out": 8
+        },
+        {
+          "attr": {
+            "n": "69"
+          },
+          "s": "INIT",
+          "in": 9,
+          "out": 9
+        },
+        {
+          "attr": {
+            "n": "70"
+          },
+          "s": "INIT",
+          "in": "'",
+          "out": "Z"
+        },
+        {
+          "attr": {
+            "n": "71"
+          },
+          "s": "INIT",
+          "in": ";",
+          "out": ";"
+        },
+        {
+          "attr": {
+            "n": "72"
+          },
+          "s": "INIT",
+          "in": ".",
+          "out": "."
+        }
+      ]
+    }
+  },
+  "wx_slp1": {
+    "fsm": {
+      "attr": {
+        "inputType": "UTF-8",
+        "outputType": "slp1",
+        "version": "2",
+        "testBlanks": "n",
+        "start": "INIT"
+      },
+      "e": [
+        {
+          "attr": {
+            "n": "0"
+          },
+          "s": "INIT",
+          "in": "a",
+          "out": "a"
+        },
+        {
+          "attr": {
+            "n": "1"
+          },
+          "s": "INIT",
+          "in": "A",
+          "out": "A"
+        },
+        {
+          "attr": {
+            "n": "2"
+          },
+          "s": "INIT",
+          "in": "i",
+          "out": "i"
+        },
+        {
+          "attr": {
+            "n": "3"
+          },
+          "s": "INIT",
+          "in": "I",
+          "out": "I"
+        },
+        {
+          "attr": {
+            "n": "4"
+          },
+          "s": "INIT",
+          "in": "u",
+          "out": "u"
+        },
+        {
+          "attr": {
+            "n": "5"
+          },
+          "s": "INIT",
+          "in": "U",
+          "out": "U"
+        },
+        {
+          "attr": {
+            "n": "6a"
+          },
+          "s": "INIT",
+          "in": "q",
+          "out": "f"
+        },
+        {
+          "attr": {
+            "n": "6b"
+          },
+          "s": "INIT",
+          "in": "Q",
+          "out": "F"
+        },
+        {
+          "attr": {
+            "n": "7"
+          },
+          "s": "INIT",
+          "in": "L",
+          "out": "x"
+        },
+        {
+          "attr": {
+            "n": "7a"
+          },
+          "s": "INIT",
+          "in": "LY",
+          "out": "X"
+        },
+        {
+          "attr": {
+            "n": "8"
+          },
+          "s": "INIT",
+          "in": "e",
+          "out": "e"
+        },
+        {
+          "attr": {
+            "n": "9"
+          },
+          "s": "INIT",
+          "in": "E",
+          "out": "E"
+        },
+        {
+          "attr": {
+            "n": "10"
+          },
+          "s": "INIT",
+          "in": "o",
+          "out": "o"
+        },
+        {
+          "attr": {
+            "n": "11"
+          },
+          "s": "INIT",
+          "in": "O",
+          "out": "O"
+        },
+        {
+          "attr": {
+            "n": "12"
+          },
+          "s": "INIT",
+          "in": "M",
+          "out": "M"
+        },
+        {
+          "attr": {
+            "n": "12a"
+          },
+          "s": "INIT",
+          "in": "z",
+          "out": "~"
+        },
+        {
+          "attr": {
+            "n": "13"
+          },
+          "s": "INIT",
+          "in": "H",
+          "out": "H"
+        },
+        {
+          "attr": {
+            "n": "14"
+          },
+          "s": "INIT",
+          "in": "k",
+          "out": "k"
+        },
+        {
+          "attr": {
+            "n": "15"
+          },
+          "s": "INIT",
+          "in": "K",
+          "out": "K"
+        },
+        {
+          "attr": {
+            "n": "16"
+          },
+          "s": "INIT",
+          "in": "g",
+          "out": "g"
+        },
+        {
+          "attr": {
+            "n": "17"
+          },
+          "s": "INIT",
+          "in": "G",
+          "out": "G"
+        },
+        {
+          "attr": {
+            "n": "18"
+          },
+          "s": "INIT",
+          "in": "f",
+          "out": "N"
+        },
+        {
+          "attr": {
+            "n": "19"
+          },
+          "s": "INIT",
+          "in": "c",
+          "out": "c"
+        },
+        {
+          "attr": {
+            "n": "20"
+          },
+          "s": "INIT",
+          "in": "C",
+          "out": "C"
+        },
+        {
+          "attr": {
+            "n": "21"
+          },
+          "s": "INIT",
+          "in": "j",
+          "out": "j"
+        },
+        {
+          "attr": {
+            "n": "22"
+          },
+          "s": "INIT",
+          "in": "J",
+          "out": "J"
+        },
+        {
+          "attr": {
+            "n": "23"
+          },
+          "s": "INIT",
+          "in": "F",
+          "out": "Y"
+        },
+        {
+          "attr": {
+            "n": "24"
+          },
+          "s": "INIT",
+          "in": "t",
+          "out": "w"
+        },
+        {
+          "attr": {
+            "n": "25"
+          },
+          "s": "INIT",
+          "in": "T",
+          "out": "W"
+        },
+        {
+          "attr": {
+            "n": "26"
+          },
+          "s": "INIT",
+          "in": "d",
+          "out": "q"
+        },
+        {
+          "attr": {
+            "n": "27"
+          },
+          "s": "INIT",
+          "in": "D",
+          "out": "Q"
+        },
+        {
+          "attr": {
+            "n": "28"
+          },
+          "s": "INIT",
+          "in": "N",
+          "out": "R"
+        },
+        {
+          "attr": {
+            "n": "28a"
+          },
+          "s": "INIT",
+          "in": "lY",
+          "out": "L"
+        },
+        {
+          "attr": {
+            "n": "28b"
+          },
+          "s": "INIT",
+          "in": "lYh",
+          "out": "|"
+        },
+        {
+          "attr": {
+            "n": "29"
+          },
+          "s": "INIT",
+          "in": "w",
+          "out": "t"
+        },
+        {
+          "attr": {
+            "n": "30"
+          },
+          "s": "INIT",
+          "in": "W",
+          "out": "T"
+        },
+        {
+          "attr": {
+            "n": "31"
+          },
+          "s": "INIT",
+          "in": "x",
+          "out": "d"
+        },
+        {
+          "attr": {
+            "n": "32"
+          },
+          "s": "INIT",
+          "in": "X",
+          "out": "D"
+        },
+        {
+          "attr": {
+            "n": "33"
+          },
+          "s": "INIT",
+          "in": "n",
+          "out": "n"
+        },
+        {
+          "attr": {
+            "n": "34"
+          },
+          "s": "INIT",
+          "in": "p",
+          "out": "p"
+        },
+        {
+          "attr": {
+            "n": "35"
+          },
+          "s": "INIT",
+          "in": "P",
+          "out": "P"
+        },
+        {
+          "attr": {
+            "n": "36"
+          },
+          "s": "INIT",
+          "in": "b",
+          "out": "b"
+        },
+        {
+          "attr": {
+            "n": "37"
+          },
+          "s": "INIT",
+          "in": "B",
+          "out": "B"
+        },
+        {
+          "attr": {
+            "n": "38"
+          },
+          "s": "INIT",
+          "in": "m",
+          "out": "m"
+        },
+        {
+          "attr": {
+            "n": "39"
+          },
+          "s": "INIT",
+          "in": "y",
+          "out": "y"
+        },
+        {
+          "attr": {
+            "n": "40"
+          },
+          "s": "INIT",
+          "in": "r",
+          "out": "r"
+        },
+        {
+          "attr": {
+            "n": "41"
+          },
+          "s": "INIT",
+          "in": "l",
+          "out": "l"
+        },
+        {
+          "attr": {
+            "n": "42"
+          },
+          "s": "INIT",
+          "in": "v",
+          "out": "v"
+        },
+        {
+          "attr": {
+            "n": "43"
+          },
+          "s": "INIT",
+          "in": "S",
+          "out": "S"
+        },
+        {
+          "attr": {
+            "n": "44"
+          },
+          "s": "INIT",
+          "in": "R",
+          "out": "z"
+        },
+        {
+          "attr": {
+            "n": "45"
+          },
+          "s": "INIT",
+          "in": "s",
+          "out": "s"
+        },
+        {
+          "attr": {
+            "n": "46"
+          },
+          "s": "INIT",
+          "in": "h",
+          "out": "h"
+        },
+        {
+          "attr": {
+            "n": "52"
+          },
+          "s": "INIT",
+          "in": "\\u0009",
+          "out": "\\u0009"
+        },
+        {
+          "attr": {
+            "n": "53"
+          },
+          "s": "INIT",
+          "in": "\\u000a",
+          "out": "\\u000a"
+        },
+        {
+          "attr": {
+            "n": "54"
+          },
+          "s": "INIT",
+          "in": "\\u000d",
+          "out": "\\u000d"
+        },
+        {
+          "attr": {
+            "n": "55"
+          },
+          "s": "INIT",
+          "in": "\\u0020",
+          "out": "\\u0020"
+        },
+        {
+          "attr": {
+            "n": "60"
+          },
+          "s": "INIT",
+          "in": 0,
+          "out": 0
+        },
+        {
+          "attr": {
+            "n": "61"
+          },
+          "s": "INIT",
+          "in": 1,
+          "out": 1
+        },
+        {
+          "attr": {
+            "n": "62"
+          },
+          "s": "INIT",
+          "in": 2,
+          "out": 2
+        },
+        {
+          "attr": {
+            "n": "63"
+          },
+          "s": "INIT",
+          "in": 3,
+          "out": 3
+        },
+        {
+          "attr": {
+            "n": "64"
+          },
+          "s": "INIT",
+          "in": 4,
+          "out": 4
+        },
+        {
+          "attr": {
+            "n": "65"
+          },
+          "s": "INIT",
+          "in": 5,
+          "out": 5
+        },
+        {
+          "attr": {
+            "n": "66"
+          },
+          "s": "INIT",
+          "in": 6,
+          "out": 6
+        },
+        {
+          "attr": {
+            "n": "67"
+          },
+          "s": "INIT",
+          "in": 7,
+          "out": 7
+        },
+        {
+          "attr": {
+            "n": "68"
+          },
+          "s": "INIT",
+          "in": 8,
+          "out": 8
+        },
+        {
+          "attr": {
+            "n": "69"
+          },
+          "s": "INIT",
+          "in": 9,
+          "out": 9
+        },
+        {
+          "attr": {
+            "n": "70"
+          },
+          "s": "INIT",
+          "in": "Z",
+          "out": "'"
+        },
+        {
+          "attr": {
+            "n": "71"
+          },
+          "s": "INIT",
+          "in": ";",
+          "out": ";"
+        },
+        {
+          "attr": {
+            "n": "72"
+          },
+          "s": "INIT",
+          "in": ".",
+          "out": "."
+        }
+      ]
+    }
+  }
+}

@@ -17,13 +17,10 @@
 // __date__ = '2019-02'
 
 
-const fs = require('fs');
-const cheerio = require('cheerio');
-const path = require('path');
+const fsmDefinitions = require('./fsm-def.json');
+
 
 const transcoderFSMIndex = {};
-const transcoderDir = path.resolve(__dirname, 'fsm-definitions');
-
 const vowelSigns = [
   '\u094d',
   '\u093e',
@@ -62,36 +59,22 @@ function transcoderFSM(sourceEncoding, targetEncoding) {
     regexCode = 'hkt_tamil';
   }
 
-  const fileIn = path.resolve(transcoderDir, `${sourceTargetCombo}.xml`);
+  const fileIn = fsmDefinitions[sourceTargetCombo];
 
-  if (!fs.existsSync(fileIn)) {
+  if (!fileIn) {
     return null;
   }
 
-  const infile = fs.readFileSync(fileIn);
-  const $ = cheerio.load(infile.toString(), { xmlMode: true });
-  const xml = $('fsm');
-  const attributes = xml.attr();
+  const xml = fileIn.fsm;
+  const attributes = xml.attr;
   const { start } = attributes;
   const fsm = { start };
-  const entries = [];
-
-  xml
-    .children()
-    .each((i, el) => {
-      entries[i] = el;
-    });
-
+  const entries = xml.e;
   const fsmentries = [];
 
   entries
     .forEach((e) => {
-      if (e.name !== 'e') {
-        return;
-      }
-
-      let x = $(e).find('in');
-      let inval = x.text() || '';
+      let inval = `${e.in}` || '';
       let conlook = false;
       const match = inval.match(/^([^/]+)\/\^/);
 
@@ -104,15 +87,10 @@ function transcoderFSM(sourceEncoding, targetEncoding) {
         conlook = true;
       }
 
-      x = $(e).find('s');
-      const sval = x.text();
+      const sval = e.s;
       const startStates = sval.split(',');
-
-      x = $(e).find('out');
-      const outval = x.text() || '';
-
-      x = $(e).find('next');
-      const nextState = x && x.text() ? x.text() : startStates[0];
+      const outval = `${e.out}` || '';
+      const nextState = e.next ? e.next : startStates[0];
 
       const fsmentry = {
         starts: startStates,
@@ -122,7 +100,7 @@ function transcoderFSM(sourceEncoding, targetEncoding) {
         next: nextState,
         inraw: inval,
         outraw: outval,
-        'e-elt': $.xml(e, { decodeEntities: false })
+        'e-elt': e
       };
 
       fsmentries.push(fsmentry);

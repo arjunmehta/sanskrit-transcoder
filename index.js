@@ -59,22 +59,22 @@ function transcoderFSM(sourceEncoding, targetEncoding) {
     regexCode = 'hkt_tamil';
   }
 
-  const fileIn = fsmDefinitions[sourceTargetCombo];
+  const fsmDefinition = fsmDefinitions[sourceTargetCombo];
 
-  if (!fileIn) {
+  if (!fsmDefinition) {
     return null;
   }
 
-  const xml = fileIn.fsm;
-  const attributes = xml.attr;
-  const { start } = attributes;
-  const fsm = { start };
-  const entries = xml.e;
-  const fsmentries = [];
+  const { fsm: rawFsm } = fsmDefinition;
+  const { start } = rawFsm.attr;
+  const rawEntries = rawFsm.e;
+  const fsmEntries = [];
 
-  entries
-    .forEach((e) => {
-      let inval = `${e.in}` || '';
+  const stateMachine = { start };
+
+  rawEntries
+    .forEach((rawEntry) => {
+      let inval = `${rawEntry.in}` || '';
       let conlook = false;
       const match = inval.match(/^([^/]+)\/\^/);
 
@@ -87,10 +87,10 @@ function transcoderFSM(sourceEncoding, targetEncoding) {
         conlook = true;
       }
 
-      const sval = e.s;
+      const sval = rawEntry.s;
       const startStates = sval.split(',');
-      const outval = `${e.out}` || '';
-      const nextState = e.next ? e.next : startStates[0];
+      const outval = `${rawEntry.out}` || '';
+      const nextState = rawEntry.next ? rawEntry.next : startStates[0];
 
       const fsmentry = {
         starts: startStates,
@@ -100,18 +100,18 @@ function transcoderFSM(sourceEncoding, targetEncoding) {
         next: nextState,
         inraw: inval,
         outraw: outval,
-        'e-elt': e
+        'e-elt': rawEntry
       };
 
-      fsmentries.push(fsmentry);
+      fsmEntries.push(fsmentry);
     });
 
-  fsm.fsm = fsmentries;
+  stateMachine.fsm = fsmEntries;
 
   const states = {};
   let ientry = 0;
 
-  fsmentries
+  fsmEntries
     .forEach((fsmentry) => {
       const { in: inval } = fsmentry;
       let state;
@@ -136,10 +136,10 @@ function transcoderFSM(sourceEncoding, targetEncoding) {
       ientry += 1;
     });
 
-  fsm.states = states;
-  transcoderFSMIndex[sourceTargetCombo] = fsm;
+  stateMachine.states = states;
+  transcoderFSMIndex[sourceTargetCombo] = stateMachine;
 
-  return fsm;
+  return stateMachine;
 }
 
 
@@ -276,7 +276,7 @@ module.exports = function transcoderProcessString(line, sourceEncoding, targetEn
   }
 
   const {
-    fsm: fsmentries,
+    fsm: fsmEntries,
     states
   } = fsm;
 
@@ -305,7 +305,7 @@ module.exports = function transcoderProcessString(line, sourceEncoding, targetEn
     for (let i = 0; i < isubs.length; i += 1) {
       const isub = isubs[i];
 
-      const fsmentry = fsmentries[isub];
+      const fsmentry = fsmEntries[isub];
       const startStates = fsmentry.starts;
       const nstartStates = startStates.length;
       let k = -1;

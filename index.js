@@ -1,4 +1,4 @@
-// FSM = Finite State Machine
+// Fsm = Finite State Machine
 
 // Ported from:
 // __program_name__ = 'transcoder.py'
@@ -17,10 +17,10 @@
 // __date__ = '2019-02'
 
 
-const fsmDefinitions = require('./fsm-def.json');
+const rawFsmDefinitions = require('./fsm-def.json');
 
 
-const transcoderFSMIndex = {};
+const transcoderFsmIndex = {};
 const vowelSigns = [
   '\u094d',
   '\u093e',
@@ -44,9 +44,9 @@ const vowelSignsUnicode = vowelSigns
   });
 
 
-function transcoderFSM(sourceEncoding, targetEncoding) {
+function transcoderFsm(sourceEncoding, targetEncoding) {
   const sourceTargetCombo = `${sourceEncoding}_${targetEncoding}`;
-  if (transcoderFSMIndex[sourceTargetCombo]) {
+  if (transcoderFsmIndex[sourceTargetCombo]) {
     return null;
   }
 
@@ -59,15 +59,15 @@ function transcoderFSM(sourceEncoding, targetEncoding) {
     regexCode = 'hkt_tamil';
   }
 
-  const fsmDefinition = fsmDefinitions[sourceTargetCombo];
+  const rawFsmDefinition = rawFsmDefinitions[sourceTargetCombo];
 
-  if (!fsmDefinition) {
+  if (!rawFsmDefinition) {
     return null;
   }
 
-  const { fsm: rawFsm } = fsmDefinition;
-  const { start } = rawFsm.attr;
-  const rawEntries = rawFsm.e;
+  const { fsm: rawDefinitionRoot } = rawFsmDefinition;
+  const { start } = rawDefinitionRoot.attr;
+  const rawEntries = rawDefinitionRoot.e;
   const fsmEntries = [];
 
   const stateMachine = { start };
@@ -137,7 +137,7 @@ function transcoderFSM(sourceEncoding, targetEncoding) {
     });
 
   stateMachine.states = states;
-  transcoderFSMIndex[sourceTargetCombo] = stateMachine;
+  transcoderFsmIndex[sourceTargetCombo] = stateMachine;
 
   return stateMachine;
 }
@@ -264,12 +264,12 @@ module.exports = function transcoderProcessString(line, sourceEncoding, targetEn
   const sourceTargetCombo = `${sourceEncoding}_${targetEncoding}`;
   let fsm;
 
-  if (transcoderFSMIndex[sourceTargetCombo]) {
-    fsm = transcoderFSMIndex[sourceTargetCombo];
+  if (transcoderFsmIndex[sourceTargetCombo]) {
+    fsm = transcoderFsmIndex[sourceTargetCombo];
   } else {
-    transcoderFSM(sourceEncoding, targetEncoding);
-    if (transcoderFSMIndex[sourceTargetCombo]) {
-      fsm = transcoderFSMIndex[sourceTargetCombo];
+    transcoderFsm(sourceEncoding, targetEncoding);
+    if (transcoderFsmIndex[sourceTargetCombo]) {
+      fsm = transcoderFsmIndex[sourceTargetCombo];
     } else {
       return line;
     }

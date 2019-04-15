@@ -17,10 +17,10 @@
 // __date__ = '2019-02'
 
 
-const fsmDefinitions = require('./fsm-def.json');
+const rawFsmDefinitions = require('./fsm-def.json');
 
 
-const transcoderFSMIndex = {};
+const transcoderFsmIndex = {};
 const vowelSigns = [
   '\u094d',
   '\u093e',
@@ -44,9 +44,9 @@ const vowelSignsUnicode = vowelSigns
   });
 
 
-function transcoderFSM(sourceEncoding, targetEncoding) {
+function transcoderFsm(sourceEncoding, targetEncoding) {
   const sourceTargetCombo = `${sourceEncoding}_${targetEncoding}`;
-  if (transcoderFSMIndex[sourceTargetCombo]) {
+  if (transcoderFsmIndex[sourceTargetCombo]) {
     return null;
   }
 
@@ -59,22 +59,22 @@ function transcoderFSM(sourceEncoding, targetEncoding) {
     regexCode = 'hkt_tamil';
   }
 
-  const fileIn = fsmDefinitions[sourceTargetCombo];
+  const rawFsmDefinition = rawFsmDefinitions[sourceTargetCombo];
 
-  if (!fileIn) {
+  if (!rawFsmDefinition) {
     return null;
   }
 
-  const xml = fileIn.fsm;
-  const attributes = xml.attr;
-  const { start } = attributes;
-  const fsm = { start };
-  const entries = xml.e;
-  const fsmentries = [];
+  const { fsm: rawDefinitionRoot } = rawFsmDefinition;
+  const { start } = rawDefinitionRoot.attr;
+  const rawEntries = rawDefinitionRoot.e;
+  const fsmEntries = [];
 
-  entries
-    .forEach((e) => {
-      let inval = `${e.in}` || '';
+  const stateMachine = { start };
+
+  rawEntries
+    .forEach((rawEntry) => {
+      let inval = `${rawEntry.in}` || '';
       let conlook = false;
       const match = inval.match(/^([^/]+)\/\^/);
 
@@ -87,12 +87,12 @@ function transcoderFSM(sourceEncoding, targetEncoding) {
         conlook = true;
       }
 
-      const sval = e.s;
+      const sval = rawEntry.s;
       const startStates = sval.split(',');
-      const outval = `${e.out}` || '';
-      const nextState = e.next ? e.next : startStates[0];
+      const outval = `${rawEntry.out}` || '';
+      const nextState = rawEntry.next ? rawEntry.next : startStates[0];
 
-      const fsmentry = {
+      const fsmEntry = {
         starts: startStates,
         regex: conlook ? regexCode : undefined,
         in: toUnicode(inval),
@@ -100,20 +100,20 @@ function transcoderFSM(sourceEncoding, targetEncoding) {
         next: nextState,
         inraw: inval,
         outraw: outval,
-        'e-elt': e
+        'e-elt': rawEntry
       };
 
-      fsmentries.push(fsmentry);
+      fsmEntries.push(fsmEntry);
     });
 
-  fsm.fsm = fsmentries;
+  stateMachine.fsm = fsmEntries;
 
   const states = {};
   let ientry = 0;
 
-  fsmentries
-    .forEach((fsmentry) => {
-      const { in: inval } = fsmentry;
+  fsmEntries
+    .forEach((fsmEntry) => {
+      const { in: inval } = fsmEntry;
       let state;
       let c;
 
@@ -136,10 +136,10 @@ function transcoderFSM(sourceEncoding, targetEncoding) {
       ientry += 1;
     });
 
-  fsm.states = states;
-  transcoderFSMIndex[sourceTargetCombo] = fsm;
+  stateMachine.states = states;
+  transcoderFsmIndex[sourceTargetCombo] = stateMachine;
 
-  return fsm;
+  return stateMachine;
 }
 
 
@@ -183,8 +183,8 @@ function toUnicode(originalString) {
   return originalString;
 }
 
-function transcoderProcessStringMatch(line, n, m, fsmentry) {
-  const edge = fsmentry.in;
+function transcoderProcessStringMatch(line, n, m, fsmEntry) {
+  const edge = fsmEntry.in;
   const nedge = edge.length;
 
   let match = '';
@@ -207,12 +207,12 @@ function transcoderProcessStringMatch(line, n, m, fsmentry) {
 
   match = edge;
 
-  if (!fsmentry.regex) {
+  if (!fsmEntry.regex) {
     return match;
   }
 
-  const nmatch = match.length;
-  const n1 = n + nmatch;
+  const nMatch = match.length;
+  const n1 = n + nMatch;
 
   if (n1 === m) {
     return match;
@@ -220,7 +220,7 @@ function transcoderProcessStringMatch(line, n, m, fsmentry) {
 
   const d = line[n1];
 
-  if (fsmentry.regex === 'slp1_deva') {
+  if (fsmEntry.regex === 'slp1_deva') {
     const test = d.match(/[^aAiIuUfFxXeEoO^/\\\\]/);
 
     if (test) {
@@ -230,7 +230,7 @@ function transcoderProcessStringMatch(line, n, m, fsmentry) {
     return '';
   }
 
-  if (fsmentry.regex === 'deva_slp1') {
+  if (fsmEntry.regex === 'deva_slp1') {
     for (let i = 0; i < vowelSignsUnicode.length; i += 1) {
       const vowelSign = vowelSignsUnicode[i];
       const vowelSignLen = vowelSign.length;
@@ -264,19 +264,19 @@ module.exports = function transcoderProcessString(line, sourceEncoding, targetEn
   const sourceTargetCombo = `${sourceEncoding}_${targetEncoding}`;
   let fsm;
 
-  if (transcoderFSMIndex[sourceTargetCombo]) {
-    fsm = transcoderFSMIndex[sourceTargetCombo];
+  if (transcoderFsmIndex[sourceTargetCombo]) {
+    fsm = transcoderFsmIndex[sourceTargetCombo];
   } else {
-    transcoderFSM(sourceEncoding, targetEncoding);
-    if (transcoderFSMIndex[sourceTargetCombo]) {
-      fsm = transcoderFSMIndex[sourceTargetCombo];
+    transcoderFsm(sourceEncoding, targetEncoding);
+    if (transcoderFsmIndex[sourceTargetCombo]) {
+      fsm = transcoderFsmIndex[sourceTargetCombo];
     } else {
       return line;
     }
   }
 
   const {
-    fsm: fsmentries,
+    fsm: fsmEntries,
     states
   } = fsm;
 
@@ -299,14 +299,14 @@ module.exports = function transcoderProcessString(line, sourceEncoding, targetEn
     }
 
     const isubs = states[c];
-    let nbest = 0;
+    let nBest = 0;
     let bestFE = null;
 
     for (let i = 0; i < isubs.length; i += 1) {
       const isub = isubs[i];
 
-      const fsmentry = fsmentries[isub];
-      const startStates = fsmentry.starts;
+      const fsmEntry = fsmEntries[isub];
+      const startStates = fsmEntry.starts;
       const nstartStates = startStates.length;
       let k = -1;
 
@@ -321,18 +321,18 @@ module.exports = function transcoderProcessString(line, sourceEncoding, targetEn
         continue;
       }
 
-      const match = transcoderProcessStringMatch(line, n, m, fsmentry);
-      const nmatch = match.length;
+      const match = transcoderProcessStringMatch(line, n, m, fsmEntry);
+      const nMatch = match.length;
 
-      if (nmatch > nbest) {
-        nbest = nmatch;
-        bestFE = fsmentry;
+      if (nMatch > nBest) {
+        nBest = nMatch;
+        bestFE = fsmEntry;
       }
     }
 
     if (bestFE) {
       result += bestFE.out;
-      n += nbest;
+      n += nBest;
       currentState = bestFE.next;
     } else {
       result += c;

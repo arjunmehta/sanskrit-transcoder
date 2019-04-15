@@ -1,4 +1,4 @@
-// Fsm = Finite State Machine
+// FSM = Finite State Machine
 
 // Ported from:
 // __program_name__ = 'transcoder.py'

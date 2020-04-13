@@ -20,7 +20,7 @@
     "url": "git+https://github.com/arjunmehta/sanskrit-transcoder.git"
   },
   "author": "Arjun Mehta",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/arjunmehta/sanskrit-transcoder/issues"
   },

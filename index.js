@@ -9,7 +9,7 @@
 // __date__ = '2011-12'
 
 // Copyleft
-// __program_name__ = 'transcoder.js'
+// __program_name__ = 'sanskrit-transcoder'
 // __author__ = 'Arjun Mehta'
 // __email__ = 'arjunmeht@gmail.com'
 // __copyright__ = 'Copyright 2019, Arjun Mehta'

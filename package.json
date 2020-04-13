@@ -1,7 +1,7 @@
 {
   "name": "sanskrit-transcoder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Transcode sanskrit strings to and from the SLP1 transliteration scheme",
   "main": "index.js",
   "scripts": {
     "prepare": "npm run setup-module && npm run install-dependencies",

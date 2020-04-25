@@ -1,6 +1,6 @@
 {
   "name": "sanskrit-transcoder",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Transcode sanskrit strings to and from the SLP1 transliteration scheme",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,9 @@
     "test": "npm run test-lint && npm run test-components",
     "test-lint": "eslint ./ --ext js",
     "test-components": "mocha ./test/index"
+  },
+  "engines": {
+    "node": ">=6.0"
   },
   "repository": {
     "type": "git",

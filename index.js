@@ -256,7 +256,7 @@ function transcoderProcessStringMatch(line, n, m, fsmEntry) {
 }
 
 
-module.exports = function transcoderProcessString(line, sourceEncoding, targetEncoding) {
+function transcoderProcessString(line, sourceEncoding, targetEncoding) {
   if (sourceEncoding === targetEncoding) {
     return line;
   }
@@ -342,4 +342,15 @@ module.exports = function transcoderProcessString(line, sourceEncoding, targetEn
   }
 
   return result;
+}
+
+module.exports = function sanskritTranscoder(sourceString, sourceScheme, targetScheme) {
+  if (sourceScheme === 'slp1' || targetScheme === 'slp1') {
+    return transcoderProcessString(sourceString, sourceScheme, targetScheme);
+  }
+
+  const toSLP1 = transcoderProcessString(sourceString, sourceScheme, 'slp1');
+  const fromSLP1 = transcoderProcessString(toSLP1, 'slp1', targetScheme);
+
+  return fromSLP1;
 };

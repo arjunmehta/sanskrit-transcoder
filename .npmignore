@@ -1,0 +1,6 @@
+.eslintrc
+.nvmrc
+
+test/**
+scripts/**
+tmp/**

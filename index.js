@@ -344,14 +344,13 @@ function transcoderProcessString(line, sourceEncoding, targetEncoding) {
   return result;
 }
 
-
-module.exports = function sanskritTranscoder(fromSource, transcodeFrom, transcodeTo) {
-  if (transcodeFrom === 'slp1' || transcodeTo === 'slp1') {
-    return transcoderProcessString(fromSource, transcodeFrom, transcodeTo);
+module.exports = function sanskritTranscoder(sourceString, sourceScheme, targetScheme) {
+  if (sourceScheme === 'slp1' || targetScheme === 'slp1') {
+    return transcoderProcessString(sourceString, sourceScheme, targetScheme);
   }
 
-  const toSLP1 = transcoderProcessString(fromSource, transcodeFrom, 'slp1');
-  const fromSLP1 = transcoderProcessString(toSLP1, 'slp1', transcodeTo);
+  const toSLP1 = transcoderProcessString(sourceString, sourceScheme, 'slp1');
+  const fromSLP1 = transcoderProcessString(toSLP1, 'slp1', targetScheme);
 
   return fromSLP1;
 };

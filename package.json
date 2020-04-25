@@ -1,6 +1,6 @@
 {
   "name": "sanskrit-transcoder",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Transcode sanskrit strings to and from the SLP1 transliteration scheme",
   "main": "index.js",
   "scripts": {

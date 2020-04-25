@@ -1,6 +1,6 @@
 {
   "name": "sanskrit-transcoder",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Transcode sanskrit strings to and from the SLP1 transliteration scheme",
   "main": "index.js",
   "scripts": {
@@ -29,14 +29,14 @@
   },
   "homepage": "https://github.com/arjunmehta/sanskrit-transcoder#readme",
   "devDependencies": {
-    "fast-xml-parser": "^3.12.16",
-    "line-stream": "^1.0.0",
-    "cheerio": "^1.0.0-rc.3",
     "babel-eslint": "^10.0.1",
     "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.3",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.1",
-    "mocha": "^6.0.0"
+    "fast-xml-parser": "^3.12.16",
+    "line-stream": "^1.0.0",
+    "mocha": "^7.1.1"
   }
 }

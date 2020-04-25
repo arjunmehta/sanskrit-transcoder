@@ -350,8 +350,8 @@ module.exports = function sanskritTranscoder(fromSource, transcodeFrom, transcod
     return transcoderProcessString(fromSource, transcodeFrom, transcodeTo);
   }
 
-  const firstStep = transcoderProcessString(fromSource, transcodeFrom, 'slp1');
-  const secondStep = transcoderProcessString(firstStep, 'slp1', transcodeTo);
+  const toSLP1 = transcoderProcessString(fromSource, transcodeFrom, 'slp1');
+  const fromSLP1 = transcoderProcessString(toSLP1, 'slp1', transcodeTo);
 
-  return secondStep;
+  return fromSLP1;
 };

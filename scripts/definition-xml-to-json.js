@@ -32,4 +32,4 @@ files.forEach((filename) => {
 });
 
 
-fs.writeFileSync(`${__dirname}/../fsm-def.json`, JSON.stringify(fsmDef, null, 2));
+fs.writeFileSync(`${__dirname}/../def/fsm-def.json`, JSON.stringify(fsmDef, null, 2));

@@ -1,5 +1,5 @@
 # sanskrit-transcoder
-Javascript port of the PHP/Python implementation of [sanskrit transcoding](https://github.com/funderburkjim/sanskrit-transcoding).
+Javascript port of the PHP/Python implementation of [sanskrit transcoding](https://github.com/funderburkjim/sanskrit-transcoding) by Jim Funderburk.
 
 This module provides a single method to transcode a string to and from a number of transliteration schemes:
 
@@ -17,25 +17,38 @@ npm install --save sanskrit-transcoder
 
 #### Basic Example
 ```js
-const sanskritTranscoder = require('sanskrit-transcoder')
+const { transcodeSanskrit } = require('sanskrit-transcoder')
 
 let transcoded
-transcoded = sanskritTranscoder('jYAna', 'slp1', 'deva') // ज्ञान
-transcoded = sanskritTranscoder('jYAna', 'slp1', 'roman') // jñāna
-transcoded = sanskritTranscoder('jJAna', 'hk', 'slp1') // jYAna
-transcoded = sanskritTranscoder('jJAna', 'hk', 'deva') // ज्ञान
+transcoded = transcodeSanskrit('jYAna', 'slp1', 'deva') // ज्ञान
+transcoded = transcodeSanskrit('jYAna', 'slp1', 'roman') // jñāna
+transcoded = transcodeSanskrit('jJAna', 'hk', 'slp1') // jYAna
+transcoded = transcodeSanskrit('jJAna', 'hk', 'deva') // ज्ञान
 ```
 
 
 ### API
 
-#### sanskritTranscoder(`sourceString`, `sourceScheme`, `targetScheme`)
+#### transcodeSanskrit(`sourceString`, `sourceScheme`, `targetScheme`)
+
+```es6
+// destructured import
+const { transcodeSanskrit } = require('sanskrit-transcoder')
+```
+
 
 - `sourceString` - the string to transcode which should be in the `sourceScheme`
 - `sourceScheme` - the transcoding scheme that your `sourceString` is in.
 - `targetScheme` - the transcoding scheme you want your output to be.
 
 
+#### definitions (object)
+```es6
+// destructured import
+const { definitions } = require('sanskrit-transcoder')
+```
+
+An object with the finite state machine definitions.
 
 ## License
 ### GPL License

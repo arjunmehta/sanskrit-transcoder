@@ -37,6 +37,6 @@
     "eslint-plugin-import": "^2.17.1",
     "fast-xml-parser": "^3.17.4",
     "line-stream": "^1.0.0",
-    "mocha": "^7.1.1"
+    "mocha": "^10.2.0"
   }
 }

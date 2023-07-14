@@ -29,7 +29,7 @@ def convert(filein, fileout, tranin, tranout):
         fpout.write('%s\n' % y)
     fp.close()
     fpout.close()
-    print n, 'lines converted\n'
+    print(n, 'lines converted\n')
 
 
 if __name__ == '__main__':

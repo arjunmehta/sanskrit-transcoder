@@ -14,7 +14,7 @@ module.exports = ({
   const sourceFilename = path.resolve(__dirname, `../../tmp/${sourceEncoding}.txt`);
   const targetFilename = path.resolve(__dirname, `../../tmp/${targetEncoding}.txt`);
   const sourceEncodingFile = fs.createWriteStream(sourceFilename);
-  const commandString = `python convert.py ${sourceFilename} ${targetFilename} ${sourceEncoding} ${targetEncoding}`;
+  const commandString = `python3 convert.py ${sourceFilename} ${targetFilename} ${sourceEncoding} ${targetEncoding}`;
 
   const convertedWordList = [];
 

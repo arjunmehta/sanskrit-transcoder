@@ -883,9 +883,11 @@
           "out": "^"
         }
       ],
-      "start": "INIT",
-      "inputDecoding": "UTF-8",
-      "outputEncoding": "UTF-8"
+      "attr": {
+        "start": "INIT",
+        "inputDecoding": "UTF-8",
+        "outputEncoding": "UTF-8"
+      }
     }
   },
   "hk_slp1": {
@@ -1062,9 +1064,11 @@
           "out": "th"
         }
       ],
-      "start": "INIT",
-      "inputDecoding": "UTF-8",
-      "outputEncoding": "UTF-8"
+      "attr": {
+        "start": "INIT",
+        "inputDecoding": "UTF-8",
+        "outputEncoding": "UTF-8"
+      }
     }
   },
   "itrans_slp1": {
@@ -1471,7 +1475,9 @@
           "out": "aU"
         }
       ],
-      "start": "INIT"
+      "attr": {
+        "start": "INIT"
+      }
     }
   },
   "roman_slp1": {
@@ -1888,9 +1894,11 @@
           "out": "O"
         }
       ],
-      "start": "SKT",
-      "inputDecoding": "UTF-8",
-      "outputEncoding": "UTF-8"
+      "attr": {
+        "start": "SKT",
+        "inputDecoding": "UTF-8",
+        "outputEncoding": "UTF-8"
+      }
     }
   },
   "slp1_as": {
@@ -2043,9 +2051,11 @@
           "out": "'"
         }
       ],
-      "start": "SKT",
-      "inputDecoding": "UTF-8",
-      "outputEncoding": "UTF-8"
+      "attr": {
+        "start": "SKT",
+        "inputDecoding": "UTF-8",
+        "outputEncoding": "UTF-8"
+      }
     }
   },
   "slp1_deva": {
@@ -2764,77 +2774,99 @@
           "in": "\\",
           "out": "\\u0952",
           "cl": "accent",
-          "n": "122"
+          "attr": {
+            "n": "122"
+          }
         },
         {
           "s": "INIT,SKT",
           "in": "\\H",
           "out": "\\u0903\\u0952",
           "cl": "accent",
-          "n": "122a"
+          "attr": {
+            "n": "122a"
+          }
         },
         {
           "s": "INIT,SKT",
           "in": "\\M",
           "out": "\\u0902\\u0952",
           "cl": "accent",
-          "n": "122b"
+          "attr": {
+            "n": "122b"
+          }
         },
         {
           "s": "INIT,SKT",
           "in": "/",
           "out": "\\u0951",
           "cl": "accent",
-          "n": "123"
+          "attr": {
+            "n": "123"
+          }
         },
         {
           "s": "INIT,SKT",
           "in": "/H",
           "out": "\\u0903\\u0951",
           "cl": "accent",
-          "n": "123a"
+          "attr": {
+            "n": "123a"
+          }
         },
         {
           "s": "INIT,SKT",
           "in": "/M",
           "out": "\\u0902\\u0951",
           "cl": "accent",
-          "n": "123b"
+          "attr": {
+            "n": "123b"
+          }
         },
         {
           "s": "INIT,SKT",
           "in": "^",
           "out": "\\u1ce0",
           "cl": "atom",
-          "n": "124"
+          "attr": {
+            "n": "124"
+          }
         },
         {
           "s": "INIT,SKT",
           "in": "^H",
           "out": "\\u0903\\u1ce0",
           "cl": "atom",
-          "n": "124a"
+          "attr": {
+            "n": "124a"
+          }
         },
         {
           "s": "INIT,SKT",
           "in": "^M",
           "out": "\\u0902\\u1ce0",
           "cl": "atom",
-          "n": "124b"
+          "attr": {
+            "n": "124b"
+          }
         },
         {
           "s": "INIT,SKT",
           "in": "~",
           "out": "\\u0901",
           "cl": "atom",
-          "n": "125"
+          "attr": {
+            "n": "125"
+          }
         },
         {
           "s": "INIT,SKT",
           "in": "o~",
           "out": "\\u0950",
           "cl": "atom",
-          "n": "126"
+          "attr": {
+            "n": "126"
+          }
         },
         {
           "s": "INIT,SKT",
@@ -2849,7 +2881,9 @@
           "next": "INIT"
         }
       ],
-      "start": "INIT"
+      "attr": {
+        "start": "INIT"
+      }
     }
   },
   "slp1_hk": {
@@ -3011,9 +3045,11 @@
           "out": "t0h"
         }
       ],
-      "start": "INIT",
-      "inputDecoding": "UTF-8",
-      "outputEncoding": "UTF-8"
+      "attr": {
+        "start": "INIT",
+        "inputDecoding": "UTF-8",
+        "outputEncoding": "UTF-8"
+      }
     }
   },
   "slp1_itrans": {
@@ -3260,9 +3296,11 @@
           "out": "a0uu"
         }
       ],
-      "start": "INIT",
-      "inputDecoding": "UTF-8",
-      "outputEncoding": "UTF-8"
+      "attr": {
+        "start": "INIT",
+        "inputDecoding": "UTF-8",
+        "outputEncoding": "UTF-8"
+      }
     }
   },
   "slp1_roman": {
@@ -3680,9 +3718,11 @@
           "out": "\\u1e2b"
         }
       ],
-      "start": "SKT",
-      "inputDecoding": "UTF-8",
-      "outputEncoding": "UTF-8"
+      "attr": {
+        "start": "SKT",
+        "inputDecoding": "UTF-8",
+        "outputEncoding": "UTF-8"
+      }
     }
   },
   "slp1_wx": {
@@ -3692,422 +3732,562 @@
           "s": "INIT",
           "in": "a",
           "out": "a",
-          "n": "0"
+          "attr": {
+            "n": "0"
+          }
         },
         {
           "s": "INIT",
           "in": "A",
           "out": "A",
-          "n": "1"
+          "attr": {
+            "n": "1"
+          }
         },
         {
           "s": "INIT",
           "in": "i",
           "out": "i",
-          "n": "2"
+          "attr": {
+            "n": "2"
+          }
         },
         {
           "s": "INIT",
           "in": "I",
           "out": "I",
-          "n": "3"
+          "attr": {
+            "n": "3"
+          }
         },
         {
           "s": "INIT",
           "in": "u",
           "out": "u",
-          "n": "4"
+          "attr": {
+            "n": "4"
+          }
         },
         {
           "s": "INIT",
           "in": "U",
           "out": "U",
-          "n": "5"
+          "attr": {
+            "n": "5"
+          }
         },
         {
           "s": "INIT",
           "in": "f",
           "out": "q",
-          "n": "6"
+          "attr": {
+            "n": "6"
+          }
         },
         {
           "s": "INIT",
           "in": "F",
           "out": "Q",
-          "n": "7"
+          "attr": {
+            "n": "7"
+          }
         },
         {
           "s": "INIT",
           "in": "x",
           "out": "L",
-          "n": "8"
+          "attr": {
+            "n": "8"
+          }
         },
         {
           "s": "INIT",
           "in": "X",
           "out": "LY",
-          "n": "8a"
+          "attr": {
+            "n": "8a"
+          }
         },
         {
           "s": "INIT",
           "in": "e",
           "out": "e",
-          "n": "9"
+          "attr": {
+            "n": "9"
+          }
         },
         {
           "s": "INIT",
           "in": "E",
           "out": "E",
-          "n": "10"
+          "attr": {
+            "n": "10"
+          }
         },
         {
           "s": "INIT",
           "in": "o",
           "out": "o",
-          "n": "11"
+          "attr": {
+            "n": "11"
+          }
         },
         {
           "s": "INIT",
           "in": "O",
           "out": "O",
-          "n": "12"
+          "attr": {
+            "n": "12"
+          }
         },
         {
           "s": "INIT",
           "in": "M",
           "out": "M",
-          "n": "13"
+          "attr": {
+            "n": "13"
+          }
         },
         {
           "s": "INIT",
           "in": "~",
           "out": "z",
-          "n": "13a"
+          "attr": {
+            "n": "13a"
+          }
         },
         {
           "s": "INIT",
           "in": "H",
           "out": "H",
-          "n": "14"
+          "attr": {
+            "n": "14"
+          }
         },
         {
           "s": "INIT",
           "in": "k",
           "out": "k",
-          "n": "15"
+          "attr": {
+            "n": "15"
+          }
         },
         {
           "s": "INIT",
           "in": "K",
           "out": "K",
-          "n": "16"
+          "attr": {
+            "n": "16"
+          }
         },
         {
           "s": "INIT",
           "in": "g",
           "out": "g",
-          "n": "17"
+          "attr": {
+            "n": "17"
+          }
         },
         {
           "s": "INIT",
           "in": "G",
           "out": "G",
-          "n": "18"
+          "attr": {
+            "n": "18"
+          }
         },
         {
           "s": "INIT",
           "in": "N",
           "out": "f",
-          "n": "19"
+          "attr": {
+            "n": "19"
+          }
         },
         {
           "s": "INIT",
           "in": "c",
           "out": "c",
-          "n": "20"
+          "attr": {
+            "n": "20"
+          }
         },
         {
           "s": "INIT",
           "in": "C",
           "out": "C",
-          "n": "21"
+          "attr": {
+            "n": "21"
+          }
         },
         {
           "s": "INIT",
           "in": "j",
           "out": "j",
-          "n": "22"
+          "attr": {
+            "n": "22"
+          }
         },
         {
           "s": "INIT",
           "in": "J",
           "out": "J",
-          "n": "23"
+          "attr": {
+            "n": "23"
+          }
         },
         {
           "s": "INIT",
           "in": "Y",
           "out": "F",
-          "n": "24"
+          "attr": {
+            "n": "24"
+          }
         },
         {
           "s": "INIT",
           "in": "w",
           "out": "t",
-          "n": "25"
+          "attr": {
+            "n": "25"
+          }
         },
         {
           "s": "INIT",
           "in": "W",
           "out": "T",
-          "n": "26"
+          "attr": {
+            "n": "26"
+          }
         },
         {
           "s": "INIT",
           "in": "q",
           "out": "d",
-          "n": "27"
+          "attr": {
+            "n": "27"
+          }
         },
         {
           "s": "INIT",
           "in": "Q",
           "out": "D",
-          "n": "28"
+          "attr": {
+            "n": "28"
+          }
         },
         {
           "s": "INIT",
           "in": "R",
           "out": "N",
-          "n": "29"
+          "attr": {
+            "n": "29"
+          }
         },
         {
           "s": "INIT",
           "in": "L",
           "out": "lY",
-          "n": "29a"
+          "attr": {
+            "n": "29a"
+          }
         },
         {
           "s": "INIT",
           "in": "|",
           "out": "lYh",
-          "n": "29b"
+          "attr": {
+            "n": "29b"
+          }
         },
         {
           "s": "INIT",
           "in": "t",
           "out": "w",
-          "n": "30"
+          "attr": {
+            "n": "30"
+          }
         },
         {
           "s": "INIT",
           "in": "T",
           "out": "W",
-          "n": "31"
+          "attr": {
+            "n": "31"
+          }
         },
         {
           "s": "INIT",
           "in": "d",
           "out": "x",
-          "n": "32"
+          "attr": {
+            "n": "32"
+          }
         },
         {
           "s": "INIT",
           "in": "D",
           "out": "X",
-          "n": "33"
+          "attr": {
+            "n": "33"
+          }
         },
         {
           "s": "INIT",
           "in": "n",
           "out": "n",
-          "n": "34"
+          "attr": {
+            "n": "34"
+          }
         },
         {
           "s": "INIT",
           "in": "p",
           "out": "p",
-          "n": "35"
+          "attr": {
+            "n": "35"
+          }
         },
         {
           "s": "INIT",
           "in": "P",
           "out": "P",
-          "n": "36"
+          "attr": {
+            "n": "36"
+          }
         },
         {
           "s": "INIT",
           "in": "b",
           "out": "b",
-          "n": "37"
+          "attr": {
+            "n": "37"
+          }
         },
         {
           "s": "INIT",
           "in": "B",
           "out": "B",
-          "n": "38"
+          "attr": {
+            "n": "38"
+          }
         },
         {
           "s": "INIT",
           "in": "m",
           "out": "m",
-          "n": "39"
+          "attr": {
+            "n": "39"
+          }
         },
         {
           "s": "INIT",
           "in": "y",
           "out": "y",
-          "n": "40"
+          "attr": {
+            "n": "40"
+          }
         },
         {
           "s": "INIT",
           "in": "r",
           "out": "r",
-          "n": "41"
+          "attr": {
+            "n": "41"
+          }
         },
         {
           "s": "INIT",
           "in": "l",
           "out": "l",
-          "n": "42"
+          "attr": {
+            "n": "42"
+          }
         },
         {
           "s": "INIT",
           "in": "v",
           "out": "v",
-          "n": "43"
+          "attr": {
+            "n": "43"
+          }
         },
         {
           "s": "INIT",
           "in": "S",
           "out": "S",
-          "n": "44"
+          "attr": {
+            "n": "44"
+          }
         },
         {
           "s": "INIT",
           "in": "z",
           "out": "R",
-          "n": "45"
+          "attr": {
+            "n": "45"
+          }
         },
         {
           "s": "INIT",
           "in": "s",
           "out": "s",
-          "n": "46"
+          "attr": {
+            "n": "46"
+          }
         },
         {
           "s": "INIT",
           "in": "h",
           "out": "h",
-          "n": "47"
+          "attr": {
+            "n": "47"
+          }
         },
         {
           "s": "INIT",
           "in": "\\u0009",
           "out": "\\u0009",
-          "n": "48"
+          "attr": {
+            "n": "48"
+          }
         },
         {
           "s": "INIT",
           "in": "\\u000a",
           "out": "\\u000a",
-          "n": "49"
+          "attr": {
+            "n": "49"
+          }
         },
         {
           "s": "INIT",
           "in": "\\u000d",
           "out": "\\u000d",
-          "n": "50"
+          "attr": {
+            "n": "50"
+          }
         },
         {
           "s": "INIT",
           "in": "\\u0020",
           "out": "\\u0020",
-          "n": "51"
+          "attr": {
+            "n": "51"
+          }
         },
         {
           "s": "INIT",
           "in": 0,
           "out": 0,
-          "n": "60"
+          "attr": {
+            "n": "60"
+          }
         },
         {
           "s": "INIT",
           "in": 1,
           "out": 1,
-          "n": "61"
+          "attr": {
+            "n": "61"
+          }
         },
         {
           "s": "INIT",
           "in": 2,
           "out": 2,
-          "n": "62"
+          "attr": {
+            "n": "62"
+          }
         },
         {
           "s": "INIT",
           "in": 3,
           "out": 3,
-          "n": "63"
+          "attr": {
+            "n": "63"
+          }
         },
         {
           "s": "INIT",
           "in": 4,
           "out": 4,
-          "n": "64"
+          "attr": {
+            "n": "64"
+          }
         },
         {
           "s": "INIT",
           "in": 5,
           "out": 5,
-          "n": "65"
+          "attr": {
+            "n": "65"
+          }
         },
         {
           "s": "INIT",
           "in": 6,
           "out": 6,
-          "n": "66"
+          "attr": {
+            "n": "66"
+          }
         },
         {
           "s": "INIT",
           "in": 7,
           "out": 7,
-          "n": "67"
+          "attr": {
+            "n": "67"
+          }
         },
         {
           "s": "INIT",
           "in": 8,
           "out": 8,
-          "n": "68"
+          "attr": {
+            "n": "68"
+          }
         },
         {
           "s": "INIT",
           "in": 9,
           "out": 9,
-          "n": "69"
+          "attr": {
+            "n": "69"
+          }
         },
         {
           "s": "INIT",
           "in": "'",
           "out": "Z",
-          "n": "70"
+          "attr": {
+            "n": "70"
+          }
         },
         {
           "s": "INIT",
           "in": ";",
           "out": ";",
-          "n": "71"
+          "attr": {
+            "n": "71"
+          }
         },
         {
           "s": "INIT",
           "in": ".",
           "out": ".",
-          "n": "72"
+          "attr": {
+            "n": "72"
+          }
         }
       ],
-      "inputType": "slp1",
-      "outputType": "UTF-8",
-      "version": "2",
-      "testBlanks": "n",
-      "start": "INIT"
+      "attr": {
+        "inputType": "slp1",
+        "outputType": "UTF-8",
+        "version": "2",
+        "testBlanks": "n",
+        "start": "INIT"
+      }
     }
   },
   "wx_slp1": {
@@ -4117,422 +4297,562 @@
           "s": "INIT",
           "in": "a",
           "out": "a",
-          "n": "0"
+          "attr": {
+            "n": "0"
+          }
         },
         {
           "s": "INIT",
           "in": "A",
           "out": "A",
-          "n": "1"
+          "attr": {
+            "n": "1"
+          }
         },
         {
           "s": "INIT",
           "in": "i",
           "out": "i",
-          "n": "2"
+          "attr": {
+            "n": "2"
+          }
         },
         {
           "s": "INIT",
           "in": "I",
           "out": "I",
-          "n": "3"
+          "attr": {
+            "n": "3"
+          }
         },
         {
           "s": "INIT",
           "in": "u",
           "out": "u",
-          "n": "4"
+          "attr": {
+            "n": "4"
+          }
         },
         {
           "s": "INIT",
           "in": "U",
           "out": "U",
-          "n": "5"
+          "attr": {
+            "n": "5"
+          }
         },
         {
           "s": "INIT",
           "in": "q",
           "out": "f",
-          "n": "6a"
+          "attr": {
+            "n": "6a"
+          }
         },
         {
           "s": "INIT",
           "in": "Q",
           "out": "F",
-          "n": "6b"
+          "attr": {
+            "n": "6b"
+          }
         },
         {
           "s": "INIT",
           "in": "L",
           "out": "x",
-          "n": "7"
+          "attr": {
+            "n": "7"
+          }
         },
         {
           "s": "INIT",
           "in": "LY",
           "out": "X",
-          "n": "7a"
+          "attr": {
+            "n": "7a"
+          }
         },
         {
           "s": "INIT",
           "in": "e",
           "out": "e",
-          "n": "8"
+          "attr": {
+            "n": "8"
+          }
         },
         {
           "s": "INIT",
           "in": "E",
           "out": "E",
-          "n": "9"
+          "attr": {
+            "n": "9"
+          }
         },
         {
           "s": "INIT",
           "in": "o",
           "out": "o",
-          "n": "10"
+          "attr": {
+            "n": "10"
+          }
         },
         {
           "s": "INIT",
           "in": "O",
           "out": "O",
-          "n": "11"
+          "attr": {
+            "n": "11"
+          }
         },
         {
           "s": "INIT",
           "in": "M",
           "out": "M",
-          "n": "12"
+          "attr": {
+            "n": "12"
+          }
         },
         {
           "s": "INIT",
           "in": "z",
           "out": "~",
-          "n": "12a"
+          "attr": {
+            "n": "12a"
+          }
         },
         {
           "s": "INIT",
           "in": "H",
           "out": "H",
-          "n": "13"
+          "attr": {
+            "n": "13"
+          }
         },
         {
           "s": "INIT",
           "in": "k",
           "out": "k",
-          "n": "14"
+          "attr": {
+            "n": "14"
+          }
         },
         {
           "s": "INIT",
           "in": "K",
           "out": "K",
-          "n": "15"
+          "attr": {
+            "n": "15"
+          }
         },
         {
           "s": "INIT",
           "in": "g",
           "out": "g",
-          "n": "16"
+          "attr": {
+            "n": "16"
+          }
         },
         {
           "s": "INIT",
           "in": "G",
           "out": "G",
-          "n": "17"
+          "attr": {
+            "n": "17"
+          }
         },
         {
           "s": "INIT",
           "in": "f",
           "out": "N",
-          "n": "18"
+          "attr": {
+            "n": "18"
+          }
         },
         {
           "s": "INIT",
           "in": "c",
           "out": "c",
-          "n": "19"
+          "attr": {
+            "n": "19"
+          }
         },
         {
           "s": "INIT",
           "in": "C",
           "out": "C",
-          "n": "20"
+          "attr": {
+            "n": "20"
+          }
         },
         {
           "s": "INIT",
           "in": "j",
           "out": "j",
-          "n": "21"
+          "attr": {
+            "n": "21"
+          }
         },
         {
           "s": "INIT",
           "in": "J",
           "out": "J",
-          "n": "22"
+          "attr": {
+            "n": "22"
+          }
         },
         {
           "s": "INIT",
           "in": "F",
           "out": "Y",
-          "n": "23"
+          "attr": {
+            "n": "23"
+          }
         },
         {
           "s": "INIT",
           "in": "t",
           "out": "w",
-          "n": "24"
+          "attr": {
+            "n": "24"
+          }
         },
         {
           "s": "INIT",
           "in": "T",
           "out": "W",
-          "n": "25"
+          "attr": {
+            "n": "25"
+          }
         },
         {
           "s": "INIT",
           "in": "d",
           "out": "q",
-          "n": "26"
+          "attr": {
+            "n": "26"
+          }
         },
         {
           "s": "INIT",
           "in": "D",
           "out": "Q",
-          "n": "27"
+          "attr": {
+            "n": "27"
+          }
         },
         {
           "s": "INIT",
           "in": "N",
           "out": "R",
-          "n": "28"
+          "attr": {
+            "n": "28"
+          }
         },
         {
           "s": "INIT",
           "in": "lY",
           "out": "L",
-          "n": "28a"
+          "attr": {
+            "n": "28a"
+          }
         },
         {
           "s": "INIT",
           "in": "lYh",
           "out": "|",
-          "n": "28b"
+          "attr": {
+            "n": "28b"
+          }
         },
         {
           "s": "INIT",
           "in": "w",
           "out": "t",
-          "n": "29"
+          "attr": {
+            "n": "29"
+          }
         },
         {
           "s": "INIT",
           "in": "W",
           "out": "T",
-          "n": "30"
+          "attr": {
+            "n": "30"
+          }
         },
         {
           "s": "INIT",
           "in": "x",
           "out": "d",
-          "n": "31"
+          "attr": {
+            "n": "31"
+          }
         },
         {
           "s": "INIT",
           "in": "X",
           "out": "D",
-          "n": "32"
+          "attr": {
+            "n": "32"
+          }
         },
         {
           "s": "INIT",
           "in": "n",
           "out": "n",
-          "n": "33"
+          "attr": {
+            "n": "33"
+          }
         },
         {
           "s": "INIT",
           "in": "p",
           "out": "p",
-          "n": "34"
+          "attr": {
+            "n": "34"
+          }
         },
         {
           "s": "INIT",
           "in": "P",
           "out": "P",
-          "n": "35"
+          "attr": {
+            "n": "35"
+          }
         },
         {
           "s": "INIT",
           "in": "b",
           "out": "b",
-          "n": "36"
+          "attr": {
+            "n": "36"
+          }
         },
         {
           "s": "INIT",
           "in": "B",
           "out": "B",
-          "n": "37"
+          "attr": {
+            "n": "37"
+          }
         },
         {
           "s": "INIT",
           "in": "m",
           "out": "m",
-          "n": "38"
+          "attr": {
+            "n": "38"
+          }
         },
         {
           "s": "INIT",
           "in": "y",
           "out": "y",
-          "n": "39"
+          "attr": {
+            "n": "39"
+          }
         },
         {
           "s": "INIT",
           "in": "r",
           "out": "r",
-          "n": "40"
+          "attr": {
+            "n": "40"
+          }
         },
         {
           "s": "INIT",
           "in": "l",
           "out": "l",
-          "n": "41"
+          "attr": {
+            "n": "41"
+          }
         },
         {
           "s": "INIT",
           "in": "v",
           "out": "v",
-          "n": "42"
+          "attr": {
+            "n": "42"
+          }
         },
         {
           "s": "INIT",
           "in": "S",
           "out": "S",
-          "n": "43"
+          "attr": {
+            "n": "43"
+          }
         },
         {
           "s": "INIT",
           "in": "R",
           "out": "z",
-          "n": "44"
+          "attr": {
+            "n": "44"
+          }
         },
         {
           "s": "INIT",
           "in": "s",
           "out": "s",
-          "n": "45"
+          "attr": {
+            "n": "45"
+          }
         },
         {
           "s": "INIT",
           "in": "h",
           "out": "h",
-          "n": "46"
+          "attr": {
+            "n": "46"
+          }
         },
         {
           "s": "INIT",
           "in": "\\u0009",
           "out": "\\u0009",
-          "n": "52"
+          "attr": {
+            "n": "52"
+          }
         },
         {
           "s": "INIT",
           "in": "\\u000a",
           "out": "\\u000a",
-          "n": "53"
+          "attr": {
+            "n": "53"
+          }
         },
         {
           "s": "INIT",
           "in": "\\u000d",
           "out": "\\u000d",
-          "n": "54"
+          "attr": {
+            "n": "54"
+          }
         },
         {
           "s": "INIT",
           "in": "\\u0020",
           "out": "\\u0020",
-          "n": "55"
+          "attr": {
+            "n": "55"
+          }
         },
         {
           "s": "INIT",
           "in": 0,
           "out": 0,
-          "n": "60"
+          "attr": {
+            "n": "60"
+          }
         },
         {
           "s": "INIT",
           "in": 1,
           "out": 1,
-          "n": "61"
+          "attr": {
+            "n": "61"
+          }
         },
         {
           "s": "INIT",
           "in": 2,
           "out": 2,
-          "n": "62"
+          "attr": {
+            "n": "62"
+          }
         },
         {
           "s": "INIT",
           "in": 3,
           "out": 3,
-          "n": "63"
+          "attr": {
+            "n": "63"
+          }
         },
         {
           "s": "INIT",
           "in": 4,
           "out": 4,
-          "n": "64"
+          "attr": {
+            "n": "64"
+          }
         },
         {
           "s": "INIT",
           "in": 5,
           "out": 5,
-          "n": "65"
+          "attr": {
+            "n": "65"
+          }
         },
         {
           "s": "INIT",
           "in": 6,
           "out": 6,
-          "n": "66"
+          "attr": {
+            "n": "66"
+          }
         },
         {
           "s": "INIT",
           "in": 7,
           "out": 7,
-          "n": "67"
+          "attr": {
+            "n": "67"
+          }
         },
         {
           "s": "INIT",
           "in": 8,
           "out": 8,
-          "n": "68"
+          "attr": {
+            "n": "68"
+          }
         },
         {
           "s": "INIT",
           "in": 9,
           "out": 9,
-          "n": "69"
+          "attr": {
+            "n": "69"
+          }
         },
         {
           "s": "INIT",
           "in": "Z",
           "out": "'",
-          "n": "70"
+          "attr": {
+            "n": "70"
+          }
         },
         {
           "s": "INIT",
           "in": ";",
           "out": ";",
-          "n": "71"
+          "attr": {
+            "n": "71"
+          }
         },
         {
           "s": "INIT",
           "in": ".",
           "out": ".",
-          "n": "72"
+          "attr": {
+            "n": "72"
+          }
         }
       ],
-      "inputType": "UTF-8",
-      "outputType": "slp1",
-      "version": "2",
-      "testBlanks": "n",
-      "start": "INIT"
+      "attr": {
+        "inputType": "UTF-8",
+        "outputType": "slp1",
+        "version": "2",
+        "testBlanks": "n",
+        "start": "INIT"
+      }
     }
   }
 }

@@ -13,7 +13,7 @@ const files = fs.readdirSync(sourceDirName).filter((file) => {
 
 const parseOptions = {
   attributeNamePrefix: '',
-  attrNodeName: 'attr',
+  attributesGroupName: 'attr',
   ignoreAttributes: false,
   ignoreNameSpace: false,
   allowBooleanAttributes: false,

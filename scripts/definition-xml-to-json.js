@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
-const parser = require('fast-xml-parser');
+const { XMLParser } = require('fast-xml-parser');
+
+const parser = new XMLParser();
 
 const fsmDef = {};
 const sourceDirName = `${__dirname}/fsm-definitions`;

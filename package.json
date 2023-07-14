@@ -4,7 +4,7 @@
   "description": "Transcode sanskrit strings to and from the SLP1 transliteration scheme",
   "main": "index.js",
   "scripts": {
-    "prepare": "npm run setup-module && npm run install-dependencies",
+    "prepare": "npm run setup-module && npm run install-dependencies && npm run build-fsm-json",
     "setup-module": "mkdir -p tmp && mkdir -p test/util/ext",
     "install-dependencies": "npm run install-transcoder",
     "install-transcoder": "cd test/util/ext && rm -rf sanskrit-transcoding && git clone git@github.com:funderburkjim/sanskrit-transcoding.git && cd ../../..",

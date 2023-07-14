@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
-const parser = require('fast-xml-parser');
+const { XMLParser } = require('fast-xml-parser');
+
 
 const fsmDef = {};
 const sourceDirName = `${__dirname}/fsm-definitions`;
@@ -12,7 +13,7 @@ const files = fs.readdirSync(sourceDirName).filter((file) => {
 
 const parseOptions = {
   attributeNamePrefix: '',
-  attrNodeName: 'attr',
+  attributesGroupName: 'attr',
   ignoreAttributes: false,
   ignoreNameSpace: false,
   allowBooleanAttributes: false,
@@ -22,10 +23,11 @@ const parseOptions = {
   parseTrueNumberOnly: true
 };
 
+const parser = new XMLParser(parseOptions);
 
 files.forEach((filename) => {
   const data = fs.readFileSync(`${sourceDirName}/${filename}`).toString();
-  const result = parser.parse(data, parseOptions);
+  const result = parser.parse(data);
   const defname = path.basename(filename, XML_EXTENSION);
 
   fsmDef[defname] = result;

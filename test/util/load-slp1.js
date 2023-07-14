@@ -5,7 +5,7 @@ const util = require('util');
 const cheerio = require('cheerio');
 const linestream = require('line-stream');
 
-const xml = fs.createReadStream(path.resolve(__dirname, '../../lib/ext/xml/mw.xml'));
+const xml = fs.createReadStream(path.resolve(__dirname, './ext/xml/mw.xml'));
 const writeFile = util.promisify(fs.writeFile);
 
 
